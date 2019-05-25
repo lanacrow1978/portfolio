@@ -124,13 +124,13 @@ body {
 
 
 h1 {
-    font-size: 3em;
+
     width: 100%;
     text-align: center;
 }
 
 h2 {
-    font-size: 3em;
+
     width: 100%;
     text-align: center;
 
@@ -150,14 +150,29 @@ nav {
 #menu {
     float: right;
     text-align: end;
+
+}
+
+#menu nav li {
+    box-sizing: border-box;
+    display: inline-block;
+   padding: 12px;
+    z-index: 1;
+    text-align: end;
+   
 }
 
 nav li {
     box-sizing: border-box;
     display: inline-block;
    padding: 12px;
+    z-index: 1;
 
    
+}
+
+#menu a {
+    font-size: 1.5vw;
 }
 
 nav li:hover {
@@ -195,7 +210,7 @@ li a:hover {
 
 .dropdown {
     position: relative;
-    width: 10%;
+    width: 15%;
 }
 
 .dropdown-content {
@@ -232,15 +247,16 @@ li a:hover {
 .lang {
     display: inline-block;
     width: 50px;
+    z-index: 1;
 }
 
 /*name section*/
 
 #name h1 {
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 9vw;
     line-height: 0.3;
-    margin-top: 10px;
+
 }
 
 #name h1 span {
@@ -254,6 +270,7 @@ li a:hover {
 }
 
 #name h2 {
+    font-size: 3.7vw;
     line-height: 2;
     color:#4B4C4C;
 }
@@ -263,15 +280,17 @@ li a:hover {
 
 .max-container {
     width: 100%;
-    height: 28em;
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc);  
-position: absolute;
+    position: relative;
+    margin: 0;
+    height: 74vw;
 
 }
 
 
 .stars {
     background-color: white;
+    position: absolute;
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -286,14 +305,14 @@ position: absolute;
 }
 
 .star-2 {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
     animation-duration: 1.1s;
     animation-name: twinkle;
 }
 
 .star-3 {
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 20%;
     animation-duration: 1s;
     animation-name: twinkle;
@@ -309,15 +328,15 @@ position: absolute;
 
 #gradient img {
     width: 100%;
-    height: 28em;
-    margin: 0;
-
+    height: 100%;
 }
 
-#hero-img figure {
+.max-container figure {
    position: absolute;
     top: 0px;
-    right: 0px; 
+    right: 0px;
+    bottom: 0px;
+
 }
 
 #face {
@@ -325,15 +344,17 @@ position: absolute;
     display: flex;
     flex-flow: row;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+
+
 }
 
 
 #face img {
     position: absolute;
     z-index: 1;
-    top: 8%;
-    max-width: 100%;
+   bottom: 0;
+    max-width: 90%;
     display: block;
     height: auto;
 }
@@ -357,9 +378,32 @@ position: absolute;
 @media only screen and (min-width: 768px) {
     /* Tablet styles here */
 
+    .max-container {
+        height: 26em;
+
+}
+    #gradient img {
+   
+    height: 26em;
+
+}
+    }
 
 
-/*general styles*/
+@media only screen and (min-width: 1200px) {
+    /* Desktop styles here */
+    
+.max-container {
+
+    height: 28em;
+
+}
+    
+    #gradient img {
+ 
+        height: 28em;
+}
+    }
 
 
 
