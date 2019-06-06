@@ -113,13 +113,12 @@ body {
 
 
 .container {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    flex-direction: row;
     justify-content: center;
     margin: 20px 0;
-
+    align-items: center;
 }
 
 
@@ -142,14 +141,15 @@ h2 {
 
 nav { 
     background-color: white;
-    width: 88%;
+    width: 87%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 #menu {
     float: right;
     text-align: right;
+    width: 50px;
 
 }
 
@@ -244,9 +244,8 @@ li a:hover {
 
 #name h1 {
     font-weight: bolder;
-    font-size: 9vw;
+    font-size: 8.8vw;
     line-height: 0.3;
-
 }
 
 #name h1 span {
@@ -260,7 +259,7 @@ li a:hover {
 }
 
 #name h2 {
-    font-size: 3.7vw;
+    font-size: 3.5vw;
     line-height: 2;
     color:#4B4C4C;
 }
@@ -273,7 +272,7 @@ li a:hover {
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc);  
     position: relative;
     margin: 0;
-    height: 74vw;
+    height: 60vh;
 
 }
 
@@ -281,8 +280,8 @@ li a:hover {
 .stars {
     background-color: white;
     position: absolute;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
     animation-iteration-count: infinite;
 }
@@ -305,6 +304,20 @@ li a:hover {
     margin-top: 20%;
     margin-left: 20%;
     animation-duration: 1s;
+    animation-name: twinkle;
+}
+
+.star-4 {
+    margin-top: 12%;
+    margin-left: 35%;
+    animation-duration: 1.2s;
+    animation-name: twinkle;
+}
+
+.star-5 {
+    margin-top: 7%;
+    margin-left: 5%;
+    animation-duration: 1.2s;
     animation-name: twinkle;
 }
 
@@ -336,17 +349,19 @@ li a:hover {
     justify-content: center;
     align-items: baseline;
 
-
 }
+
 
 
 #face img {
     position: absolute;
     z-index: 1;
-   bottom: 0;
+    bottom: 0;
     max-width: 90%;
-    display: block;
+    /*display: block;*/
     height: auto;
+    max-height: 60vh;
+
 }
 
 
@@ -368,7 +383,7 @@ li a:hover {
 @media only screen and (min-width: 768px) {
     /* Tablet styles here */
 
-    .max-container {
+   /* .max-container {
         height: 26em;
 
 }
@@ -376,7 +391,7 @@ li a:hover {
    
     height: 26em;
 
-}
+}*/
     
     nav li {
  
@@ -391,7 +406,7 @@ li a:hover {
 @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
     
-.max-container {
+/*.max-container {
 
     height: 28em;
 
@@ -400,7 +415,7 @@ li a:hover {
     #gradient img {
  
         height: 28em;
-}
+}*/
     
     nav li {
  
