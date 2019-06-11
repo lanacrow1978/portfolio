@@ -357,6 +357,7 @@ li a:hover {
     top: 0px;
     right: 0px;
     bottom: 0px;
+    width: 50%;
 
 }
 
@@ -457,7 +458,7 @@ li a:hover {
 
 
 .project-container {
-    padding-top: 4%;
+    padding: 3% 0;
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -574,9 +575,9 @@ li a:hover {
         height: auto;
 }
     .project-container{
-        height: 65vh;
+        height: auto;
         text-align: left;
-        padding-top: 0;
+     
     }
     
    .project-description h2, p{
@@ -623,9 +624,9 @@ li a:hover {
 }
     
      .project-container{
-        height: 65vh;
+        height: auto;
          text-align: left;
-         padding-top: 0;
+      
     }
 
     .project-description h2, p{
