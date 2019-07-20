@@ -119,11 +119,11 @@ body {
     justify-content: center;
     margin: 20px 0;
     align-items: center;
+    align-content: center;
 }
 
 
 h1 {
-
     width: 100%;
     text-align: center;
 }
@@ -133,6 +133,11 @@ h2 {
     width: 100%;
     text-align: center;
 
+
+}
+
+h3, h4 {
+    text-align: center;
 }
 
 p {
@@ -150,6 +155,21 @@ a:hover {
 
 }
 
+figure {
+    margin: 0;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+}
 
 
 /*header*/
@@ -257,10 +277,14 @@ li a:hover {
 
 /*name section*/
 
+
+
+
 #name h1 {
     font-weight: bolder;
     font-size: 8.8vw;
     line-height: 0.3;
+    text-align: center;
 }
 
 #name h1 span {
@@ -277,6 +301,7 @@ li a:hover {
     font-size: 3.5vw;
     line-height: 2;
     color:#4B4C4C;
+    text-align: center;
 }
 
 
@@ -287,10 +312,9 @@ li a:hover {
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc);  
     position: relative;
     margin: 0;
-    height: 60vh;
+    height: 65vh;
 
 }
-
 
 
 
@@ -318,7 +342,7 @@ li a:hover {
 }
 
 .star-3 {
-    margin-top: 20%;
+    margin-top: 11%;
     margin-left: 20%;
     animation-duration: 1s;
     animation-name: twinkle;
@@ -337,6 +361,39 @@ li a:hover {
     animation-duration: 1.2s;
     animation-name: twinkle;
 }
+
+.star-6 {
+    margin-top: 5%;
+    margin-left: 80%;
+    height: 5px;
+    width: 5px;
+}
+
+.star-7 {
+    margin-top: 10%;
+    margin-left: 90%;
+    height: 3px;
+    width: 3px;
+}
+
+.star-8 {
+    margin-top: 11%;
+    margin-left: 80%;
+    height: 5px;
+    width: 5px;
+}
+
+.star-9 {
+    margin-top: 12%;
+    margin-left: 65%;
+}
+
+.star-10 {
+    margin-top: 7%;
+    margin-left: 95%;
+}
+
+
 
 @keyframes twinkle {
     20% {
@@ -380,9 +437,56 @@ li a:hover {
     max-width: 90%;
     /*display: block;*/
     height: auto;
-    max-height: 60vh;
+    max-height: 58vh;
 
 }
+
+.design {
+    position: absolute;
+    font-size: 4.5vw;
+    margin-top: 30vh;
+    margin-left: 80%;
+
+}
+
+.design strong {
+    color: white;
+    /*text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;*/
+}
+
+
+.design p {
+    font-size: 1.5vw;
+    color: white;
+    text-align: left;
+    color: black;
+}
+
+.code {
+    position: absolute;
+    font-size: 4.5vw;
+    margin-top: 30vh;
+    margin-left: 8%;
+    font-weight: bolder;
+    font-family: courier;
+}
+
+.code strong {
+    color: black;
+    /*text-shadow: -1px -1px 0 #73CEC0, 1px -1px 0 #73CEC0, -1px 1px 0 #73CEC0, 1px 1px 0 #73CEC0;*/
+}
+
+.code p {
+    font-size: 1.5vw;
+    color: white;
+    text-align: left;
+
+}
+
+.code span {
+    font-size: 1vw;
+}
+
 
 
 
@@ -397,60 +501,6 @@ li a:hover {
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc);  
 }*/
 
-/*About me*/
-
-.reg-container {
-    margin: 3%;
-}
-
-#about p {
-    margin: 0.5%;
-    text-align: center;
-    font-size: 1rem;
-    }
-
-.container {
-    margin-bottom: 10%;
-}
-
-.button {
-    background-color: #73CEC0;
-    display: inline-block;
-    color: #202020;
-    border-radius: 10px;
-    border-width: 11px;
-    padding: 0.7rem 3.5rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
-    text-decoration: none;
-    font-size: 1.1rem;
-    /*text-shadow: -1px 0 #B4B7B7, 0 1px #B4B7B7, 1px 0 #B4B7B7, 0 -1px #B4B7B7;*/
-    cursor: pointer;
-
-    
-}
-
-/*.button:after {
-    transition: all 300ms ease 0ms;
-}*/
-
-
-#about a {
-    text-decoration: none;
-
-}
-
-#about a:hover {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #202020;
-}
-
-#about p {
-    line-height: 1.5;
-    padding: 0;
-}
 
  
 
@@ -466,7 +516,7 @@ li a:hover {
     flex-flow: row wrap;
     width: 95%;
     align-items: center;
-    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
     text-align: center;
 }
 
@@ -506,13 +556,12 @@ li a:hover {
 
 .project-description h2, p{
     text-align: center;
-   padding-bottom: 4%;
+    padding-bottom: 4%;
 }
 
 #portfolio a {
     text-decoration: none;
     color: white;
-
 }
 
 #portfolio a:hover {
@@ -530,6 +579,231 @@ li a:hover {
    
 }
 
+.project-details p {
+    color: black;
+}
+
+
+.button {
+    background-color: #73CEC0;
+    display: inline-block;
+    color: #202020;
+    border-radius: 10px;
+    border-width: 11px;
+    padding: 0.7rem 3.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+ 
+}
+
+#last {
+    border-bottom: none;
+}
+
+
+/*About me*/
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: black;
+    margin-top: 2%;
+}
+
+#about figure {
+    width: 50%;
+}
+
+#about h2 {
+  margin-bottom: 3rem;
+}
+
+#about article div {
+    margin-top: 3%;
+}
+
+#about article {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#about p {
+    color: #ECF3F2;
+}
+
+#about h2 {
+    color: #73CEC0;
+}
+
+#about a {
+    color: #73CEC0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#about a:hover {
+    font-size: 1.3rem;
+    
+}
+
+
+
+#skills {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: black;
+    color: white;
+}
+
+
+/*
+.reg-container {
+    margin: 3%;
+    background-color: black;
+    padding: 5% 0;
+    margin: 0;
+}
+
+#about p {
+    margin: 0.5%;
+    text-align: center;
+    font-size: 1rem;
+
+    }
+
+
+.button {
+    background-color: #73CEC0;
+    display: inline-block;
+    color: #202020;
+    border-radius: 10px;
+    border-width: 11px;
+    padding: 0.7rem 3.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-size: 1.1rem;
+   
+    cursor: pointer;
+ 
+}
+
+#cv {
+    box-shadow: 10px 12px 18px -6px rgba(174,221,214,0.5);
+}
+*/
+/*.button:after {
+    transition: all 300ms ease 0ms;
+}*/
+
+/*
+#about a {
+    text-decoration: none;
+
+}
+
+#about a:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #202020;
+}
+
+#about p {
+    line-height: 1.5;
+    padding: 0;
+}
+
+
+.skills-container {
+    padding: 3% 2%;
+   background: black;  
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: baseline;
+    text-align: center;
+    
+}
+
+
+.skill-type {
+    width: 100%;
+    margin: 5%;
+  
+}
+
+
+.skill-type img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.skill-type h4 {
+
+    margin-top: 2rem;
+}
+
+
+.skills-container h2 {
+
+    font-size: 3rem;
+
+}
+
+p {
+    width: 100%;
+    text-align: left;
+}
+
+#skills {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        width: 90%;
+        align-items: center;
+        padding: 5% 0;
+        align-content: center;
+        text-align: center;
+ 
+    } 
+
+#portfolio-pic {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0;
+}
+
+.skills-container figure {
+    width: 50%;
+    margin: auto;
+
+}
+
+.skills-container div{
+    width: 90%;
+    padding: 5%;
+}
+
+
+
+*/
 
 
 
@@ -537,22 +811,27 @@ li a:hover {
 
 
 
+
+
+/*Dorothy*/
+
+.full-page-img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+.full-page-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 @media only screen and (min-width: 768px) {
     /* Tablet styles here */
-
-   /* .max-container {
-        height: 26em;
-
-}
-    #gradient img {
-   
-    height: 26em;
-
-}*/
     
-    nav li {
+ nav li {
 
     line-height: 1;
     font-size: 1em;
@@ -560,80 +839,202 @@ li a:hover {
   
 }
     
-    .container {
+.container {
         margin-bottom: 0;
 }
     
-    .project-description {
+ .project-description {
         width: 45%;
         margin: 0;
 }
 
 
-    .project-img {
+.project-img {
         width: 45%;
         margin: 0;
         height: auto;
 }
-    .project-container{
+ .project-container{
         height: auto;
         text-align: left;
      
     }
     
-   .project-description h2, p{
+.project-description h2, p{
     text-align: left;  
 } 
+    
+.design {
+    margin-left: 80%;
+}
+
+
+.code {
+    margin-left: 8%;
+}
+    
+/*About section*/
+    
+    
+     #about article div {
+    width: 60%;
+  }
+    
+    #about article figure {
+        width: 30%;
+        margin: 0 3%;
+    }
+    
+    #about article {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    } 
+    
+  
+    
+   /* .skills-container article {
+    width: 30%;
+    margin: 5% 1%;
+  
+}
+    
+     .skill-type {
+    width: 30%;
+    margin: 5% 1%;
+  
+}
+    
+   .skills-container figure {
+    width: 30%;
+    margin: auto;
+}
+
+.skills-container div{
+    width: 50%;
+    padding: 5%;
+}*/
+    
 
 }
 @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
     
-/*.max-container {
-
-    height: 28em;
-
-}
     
-    #gradient img {
- 
-        height: 28em;
-}*/
-    
-    nav li {
+nav li {
  
     line-height: 1;
     font-size: 1em;
     padding-top: 0.2;
 }
     
-    .container {
+.container {
         margin-bottom: 0;
 }
     
     
-    .project-description {
+ .project-description {
         width: 45%;
         margin: 0;
 }
 
 
-    .project-img {
+.project-img {
         flex-basis: 45%;
         margin: 0;
         height: auto;
 }
     
-     .project-container{
+ .project-container{
         height: auto;
          text-align: left;
       
     }
 
-    .project-description h2, p{
+ .project-description h2, p{
         text-align: left;
-} 
+}
     
+.design {
+
+    margin-left: 80%;
+}
+
+
+.code {
+    margin-left: 8%;
+}
+    
+/*About section*/
+    
+    
+  #about article div {
+    width: 65%;
+  }
+    
+    #about article figure {
+        width: 30%;
+        margin: 0 3%;
+    }
+    
+    #about article {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    } 
+    
+    
+ /*   .skill-type {
+    width: 30%;
+    margin: 5% 1%;
+  
+}
+    
+    
+ .skills-container figure {
+    width: 30%;
+    margin: auto;
+}
+
+.skills-container div{
+    width: 50%;
+    padding: 5%;
+}*/
+    
+}
+
+@media only screen and (orientation: portrait) {
+    
+ .max-container {
+    max-height: 35vh;
+}
+    
+ #face img {
+    height: inherit;
+    max-height: 32vh;
+}
+
+.code {
+    margin-top: 20vh;
+    margin-left: 5%;
+}
+
+.code p {
+    font-size: 1.5vw;
+    color: white;
+    text-align: left;
+
+}
+
+.code span {
+    font-size: 1vw;
+}
+    
+ .design {
+    margin-top: 20vh;
+    margin-left: 80%;
+}
+
 }
     
 
