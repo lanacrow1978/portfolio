@@ -656,7 +656,7 @@ li a:hover {
     
 }
 
-
+/*skills section*/
 
 #skills {
     display: flex;
@@ -664,6 +664,35 @@ li a:hover {
     flex-flow: row wrap;
     background-color: black;
     color: white;
+}
+
+
+ #skills article img {
+        height: 100px;
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+    
+#skills article p {
+    text-align: center;
+    color: white;
+    }
+
+
+#skill {
+    width: 100%;
+    align-items: baseline;
+}
+
+#skill h4 {
+    margin: 3% 0;
+}
+
+#skills h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
 }
 
 
@@ -890,8 +919,23 @@ p {
         justify-content: space-between;
         text-align: left;
     } 
+   
     
-  
+    /*skills section*/
+    
+    #skill {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    #skill article {
+        width: 30%;
+    }
+    
+    
+
+   
     
    /* .skills-container article {
     width: 30%;
@@ -969,7 +1013,7 @@ nav li {
     
     
   #about article div {
-    width: 65%;
+    width: 58%;
   }
     
     #about article figure {
@@ -982,6 +1026,25 @@ nav li {
         justify-content: space-between;
         text-align: left;
     } 
+    
+/*skills section*/
+    
+     #skill {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+  #skills article {
+        width: 30%;
+    }
+    
+   /* #skills article {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+    }*/
     
     
  /*   .skill-type {
