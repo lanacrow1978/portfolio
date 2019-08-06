@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("svet.crow@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -224,7 +230,7 @@
         <div id="contact-form">
             
         <h4>..or use the form</h4>
-         <form action="/submit-enquiry" >  
+         <form method="post" action="contact.php" >  
             <input type="text" required placeholder="Your name">
             <input type="text" required placeholder="Your e-mail">
             
@@ -232,11 +238,11 @@
              <h5>Budget</h5>
             
         <label for="300">
-        <input id="300" type="radio" name="300-500-1,000 or over"> 300</label>
+        <input id="300" type="radio" name="500-750-1,000 or over"> £500</label>
         <label for="300-500-100-over- 1,000">
-    <input id="500" type="radio" name ="300-500-1,000 or over"> 500</label>
+    <input id="500" type="radio" name ="500-750-1,000 or over"> £750</label>
         <label for="300-500-100-over-1,000">
-    <input id="1000" type="radio" name ="300-500-1,000 or over"> 1,000 or over</label>
+    <input id="1000" type="radio" name ="500-750-1,000 or over"> £1,000 or over</label>
          </div>    
         <input type="text" required placeholder="Description of your project" id="enquiry">
              
@@ -249,9 +255,7 @@
         
         </div>
         
-        
-        
-        
+    
         
         </div>
     
