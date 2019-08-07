@@ -308,7 +308,7 @@ li a:hover {
     flex-flow: row wrap;
     background-color: black;
     color: #73CEC0;;
-    padding: 3% 3% 1% 3%;
+    padding: 3% 3% 0 3%;
 
 }
 
@@ -517,11 +517,11 @@ li a:hover {
 
 .code {
     position: absolute;
-    font-size: 4.5vw;
-    margin-top: 30vh;
+    font-size: 4.2vw;
+    margin-top: 32vh;
     margin-left: 8%;
     font-weight: bolder;
-    font-family: courier;
+    font-family: Orbitron, courier;
 }
 
 .code strong {
@@ -530,7 +530,7 @@ li a:hover {
 }
 
 .code p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: white;
     text-align: left;
 
@@ -592,7 +592,7 @@ li a:hover {
 }
 
 
-.project-description h2, p{
+.project-description h3, p{
     text-align: center;
     padding-bottom: 4%;
 }
@@ -682,15 +682,25 @@ li a:hover {
 
 
 #about a {
-    color: #73CEC0;
+    color: white;
     cursor: pointer;
-    text-decoration: underline;
-    font-weight: bold;
     font-size: 1.1rem;
 }
 
+
 #about a:hover {
-    font-size: 1.3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition:transform 0.5s ease-in-out;
+    -ms-transition:transform 0.5s ease-in-out;
     
 }
 
@@ -889,7 +899,7 @@ label {
      
     }
     
-.project-description h2, p{
+.project-description h3, p{
     text-align: left;  
 } 
     
@@ -996,7 +1006,7 @@ nav li {
       
     }
 
- .project-description h2, p{
+ .project-description h3, p{
         text-align: left;
 }
     
