@@ -517,7 +517,7 @@ li a:hover {
 
 .code {
     position: absolute;
-    font-size: 4.2vw;
+    font-size: 4.3vw;
     margin-top: 32vh;
     margin-left: 8%;
     font-weight: bolder;
@@ -538,6 +538,7 @@ li a:hover {
 
 .code span {
     font-size: 1vw;
+    color: black;
 }
 
  
