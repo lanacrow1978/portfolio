@@ -659,7 +659,7 @@ li a:hover {
 }
 
 #about h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 #about article div {
@@ -671,6 +671,12 @@ li a:hover {
     justify-content: center;
     flex-flow: row wrap;
     text-align: center;
+    align-items: center;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 0.95rem;
 }
 
 
