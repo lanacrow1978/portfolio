@@ -292,7 +292,7 @@ li a:hover {
 .social-links ul li {
     text-align: end;
     float: left;
-    display: inline-block;
+    display: inline;
 }
 
 
