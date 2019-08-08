@@ -128,22 +128,13 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    color:#4B4C4C;
-    width: 100%;
-    text-align: center;
 
-
-}
-
-h3, h4 {
+h2, h3, h4, h5 {
     text-align: center;
     color:#4B4C4C;
 }
 
-h5 {
-    color:#4B4C4C;
-}
+
 
 p {
     color: #4B4C4C;
@@ -294,6 +285,7 @@ li a:hover {
 .social-links li {
     display: inline-block;
     padding: 0 3%;
+    text-align: end;
 }
 
 #social {
@@ -355,6 +347,7 @@ li a:hover {
     line-height: 2;
     color:#4B4C4C;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -518,8 +511,8 @@ li a:hover {
 .code {
     position: absolute;
     font-size: 4.3vw;
-    margin-top: 31.7vh;
-    margin-left: 7%;
+    margin-top: 33vh;
+    margin-left: 5.5%;
     font-weight: bolder;
     font-family: Orbitron, courier;
 }
@@ -910,7 +903,7 @@ label {
 
 
 .code {
-    margin-left: 8%;
+    margin-left: 5.5%;
 }
     
 /*About section*/
@@ -1018,7 +1011,7 @@ nav li {
 
 
 .code {
-    margin-left: 8%;
+    margin-left: 5.5%;
 }
     
 /*About section*/
@@ -1104,7 +1097,7 @@ nav li {
 }
     
  .design {
-    margin-top: 20vh;
+    margin-top: 18vh;
     margin-left: 80%;
 }
 
