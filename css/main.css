@@ -135,7 +135,6 @@ h2, h3, h4, h5 {
 }
 
 
-
 p {
     color: #4B4C4C;
     -webkit-font-smoothing: antialiased;
@@ -276,23 +275,17 @@ li a:hover {
 
 /*footer*/
 
-.social-links {
+.social-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: end;
-    -ms-text-align: end;
+    text-align: end !important;
+    -ms-text-align: end !important;
 }
 
 .social-links li {
     display: inline-block;
     padding: 0 3%;
-    *display: inline;
-}
-
-.social-links ul li {
-    text-align: end;
-   clear: both;
 }
 
 
@@ -301,7 +294,7 @@ li a:hover {
     text-align: end;
     align-content: flex-end;
     align-items: flex-end;
-    -ms-align-items: flex-end;
+    -ms-align-items: flex-end !important;
     clear: both;
 
 }
@@ -524,7 +517,7 @@ li a:hover {
 .code {
     position: absolute;
     font-size: 4.3vw;
-    margin-top: 33vh;
+    margin-top: 32vh;
     margin-left: 5.5%;
     font-weight: bolder;
     font-family: Orbitron, courier;
@@ -600,7 +593,6 @@ li a:hover {
 
 
 .project-description h3, p{
-    text-align: center;
     padding-bottom: 4%;
 }
 
