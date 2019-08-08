@@ -293,6 +293,9 @@ li a:hover {
     flex-basis: 45%;
     text-align: end;
     align-content: flex-end;
+    align-items: flex-end;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 
