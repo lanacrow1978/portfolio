@@ -281,6 +281,7 @@ li a:hover {
     margin: 0;
     padding: 0;
     text-align: end;
+    -ms-text-align: end;
 }
 
 .social-links li {
@@ -294,8 +295,8 @@ li a:hover {
     text-align: end;
     align-content: flex-end;
     align-items: flex-end;
-    padding-right: 0;
-    margin-right: 0;
+    -ms-align-items: flex-end;
+
 }
 
 
@@ -720,11 +721,14 @@ li a:hover {
         display: block;
         margin: auto;
     }
+
+#skill article {
+    margin-bottom: 4rem;
+}
     
 #skills article p {
     text-align: center;
-    color: white;
-   
+    color: white;  
     }
 
 
@@ -902,14 +906,7 @@ label {
     text-align: left;  
 } 
     
-/*.design {
-    margin-left: 80%;
-}
 
-
-.code {
-    margin-left: 5.5%;
-}*/
     
 /*About section*/
     
@@ -941,6 +938,7 @@ label {
     
     #skill article {
         width: 30%;
+        margin-bottom: 0;
     }
     
    /*contact section*/
@@ -1009,15 +1007,7 @@ nav li {
         text-align: left;
 }
     
-/*.design {
 
-    margin-left: 80%;
-}
-
-
-.code {
-    margin-left: 5.5%;
-}*/
     
 /*About section*/
     
@@ -1046,8 +1036,10 @@ nav li {
     }
     
     
+    
   #skills article {
         width: 30%;
+      margin-bottom: 0;
     }
     
   /*contact section*/
