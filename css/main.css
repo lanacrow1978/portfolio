@@ -280,17 +280,19 @@ li a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: end;
 }
 
 .social-links li {
     display: inline-block;
     padding: 0 3%;
-    text-align: right;
 }
+
 
 #social {
     flex-basis: 45%;
-    text-align: end;   
+    text-align: end;
+    align-content: flex-end;
 }
 
 
@@ -1108,7 +1110,7 @@ nav li {
     
     
     .code {
-    margin-top: 19.5vh;
+    margin-top: 18.5vh;
 
 }
 }
