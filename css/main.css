@@ -902,14 +902,14 @@ label {
     text-align: left;  
 } 
     
-.design {
+/*.design {
     margin-left: 80%;
 }
 
 
 .code {
     margin-left: 5.5%;
-}
+}*/
     
 /*About section*/
     
@@ -1009,7 +1009,7 @@ nav li {
         text-align: left;
 }
     
-.design {
+/*.design {
 
     margin-left: 80%;
 }
@@ -1017,7 +1017,7 @@ nav li {
 
 .code {
     margin-left: 5.5%;
-}
+}*/
     
 /*About section*/
     
@@ -1102,7 +1102,7 @@ nav li {
 }
     
  .design {
-    margin-top: 18vh;
+    margin-top: 19.5vh;
     margin-left: 80%;
 }
 
@@ -1111,11 +1111,9 @@ nav li {
 @media screen and (max-width: 600px) {
   
     
-    
-    .code {
-    margin-top: 18.5vh;
+   
 
-}
+
 }
     
 
