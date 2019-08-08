@@ -285,7 +285,7 @@ li a:hover {
 .social-links li {
     display: inline-block;
     padding: 0 3%;
-    text-align: end;
+    text-align: right;
 }
 
 #social {
@@ -1101,6 +1101,16 @@ nav li {
     margin-left: 80%;
 }
 
+}
+
+@media screen and (max-width: 600px) {
+  
+    
+    
+    .code {
+    margin-top: 19.5vh;
+
+}
 }
     
 
