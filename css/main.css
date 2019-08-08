@@ -289,6 +289,11 @@ li a:hover {
     padding: 0 3%;
 }
 
+.social-links ul li {
+    text-align: end;
+    float: left;
+}
+
 
 #social {
     flex-basis: 45%;
@@ -530,7 +535,7 @@ li a:hover {
 }
 
 .code p {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     color: white;
     text-align: left;
 
@@ -1084,7 +1089,7 @@ nav li {
 }
 
 .code p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     color: white;
     text-align: left;
 
