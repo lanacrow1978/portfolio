@@ -291,8 +291,7 @@ li a:hover {
 
 .social-links ul li {
     text-align: end;
-    float: left;
-    display: inline;
+   clear: both;
 }
 
 
@@ -302,7 +301,7 @@ li a:hover {
     align-content: flex-end;
     align-items: flex-end;
     -ms-align-items: flex-end;
-    white-space: nowrap;
+    clear: both;
 
 }
 
