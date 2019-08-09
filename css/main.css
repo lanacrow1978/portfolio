@@ -313,7 +313,7 @@ li a:hover {
 }
 
 #copyright {
-    flex-basis: 55%;
+    flex-basis: 48%;
 }
 
 #copyright p {
@@ -505,7 +505,6 @@ li a:hover {
 
 .design strong {
     color: white;
-    /*text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;*/
 }
 
 
@@ -527,11 +526,10 @@ li a:hover {
 
 .code strong {
     color: black;
-    /*text-shadow: -1px -1px 0 #73CEC0, 1px -1px 0 #73CEC0, -1px 1px 0 #73CEC0, 1px 1px 0 #73CEC0;*/
 }
 
 .code p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     color: white;
     text-align: left;
 
