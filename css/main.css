@@ -304,9 +304,11 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    width: 100%;
     background-color: black;
-    color: #73CEC0;;
+    color: #73CEC0;
     padding: 3% 3% 0 3%;
+    
 
 }
 
@@ -516,8 +518,8 @@ li a:hover {
 
 .code {
     position: absolute;
-    font-size: 4.3vw;
-    margin-top: 32vh;
+    font-size: 4.4vw;
+    margin-top: 30vh;
     margin-left: 5.5%;
     font-weight: bolder;
     font-family: Orbitron, courier;
@@ -529,7 +531,7 @@ li a:hover {
 }
 
 .code p {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: white;
     text-align: left;
 
@@ -1082,7 +1084,6 @@ nav li {
 }
 
 .code p {
-    font-size: 1.4vw;
     color: white;
     text-align: left;
 
@@ -1093,7 +1094,7 @@ nav li {
 }
     
  .design {
-    margin-top: 19.5vh;
+    margin-top: 20vh;
     margin-left: 80%;
 }
 
