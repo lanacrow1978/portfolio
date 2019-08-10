@@ -748,7 +748,15 @@ li a:hover {
     margin-bottom: 50px;
 }
 
+/*testimonials*/
 
+
+#reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
 
 /*contact*/
 
