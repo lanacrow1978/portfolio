@@ -755,8 +755,10 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    align-items: baseline;
 
 }
+
 
 /*contact*/
 
