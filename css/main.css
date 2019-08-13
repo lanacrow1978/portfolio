@@ -192,15 +192,15 @@ nav li {
     padding: 11px;
     z-index: 1;
     line-height: 0.5;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     padding-top: 0.2;
-    width: auto;
+    background-color: white;
 }
 
 
-/*nav li:hover {
+nav li:hover {
     background-color: white;
-}*/
+}
  
 li a {
     text-decoration: none;
@@ -242,11 +242,14 @@ li a:hover {
     text-align: left;
     display: none;
     top: 100%;
-    /*overflow: auto;*/
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-
+.dropdown-content li {
+    background-color: white;
+    /*width: auto;*/
+}
 
 /*.dropdown:hover .dropdown-content{
     display: block;
@@ -306,6 +309,7 @@ li a:hover {
     padding: 0;
     text-align: end !important;
     -ms-text-align: end !important;
+    float: right;
 }
 
 .social-links li {
@@ -344,9 +348,6 @@ li a:hover {
 
 /*name section*/
 
-#name .container {
-    margin-bottom: 2%;
-}
 
 #name h1 {
     font-weight: bolder;
@@ -372,12 +373,7 @@ li a:hover {
     text-align: center;
     width: 100%;
     margin-bottom: 2%;
-}
-
-#title .container {
-    margin: 0 0 1% 0;
-
-    
+    text-align: center;
 }
 
 
@@ -923,7 +919,7 @@ label {
  nav li {
 
     line-height: 1;
-    font-size: 1em;
+    font-size: 1rem;
     padding-top: 0.2;
   
 }
@@ -1125,6 +1121,15 @@ nav li {
 }
 
 @media only screen and (orientation: portrait) {
+    
+    /*header*/
+    
+    nav li {
+    padding: 11px;
+    font-size: 0.7rem;
+
+}
+
     
  .max-container {
     max-height: 35vh;
