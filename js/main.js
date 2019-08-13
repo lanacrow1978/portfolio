@@ -11,14 +11,14 @@ $('#language').click(function() {
 $(document).ready(function(){
 
 
-$("#menu").on('click', function(event){
+$("#menu").on('click mouseover', function(event){
  event.stopPropagation();
  $("#menu-dropdown-content").toggle();
 
 });
 
 
-$(document).on("click", function(event){
+$(document).on('click mouseout', function(event){
 event.stopPropagation();
 $("#menu-dropdown-content").hide();      
 
@@ -29,14 +29,14 @@ $("#menu-dropdown-content").hide();
 $(document).ready(function(){
 
 
-$("#language").on('click', function(event){
+$("#language").on('click mouseover', function(event){
  event.stopPropagation();
  $("#lang-dropdown-content").toggle();
 
 });
 
 
-$(document).on("click", function(event){
+$(document).on('click mouseout', function(event){
 event.stopPropagation();
 $("#lang-dropdown-content").hide();      
 
