@@ -295,7 +295,7 @@ li a:hover {
 }
 
 #social {
-    flex-basis: 45%;
+    width: 20%;
     text-align: end;
     align-content: flex-end;
     align-items: flex-end;
@@ -307,6 +307,7 @@ li a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: flex-end;
     text-align: end !important;
     -ms-text-align: end !important;
     float: right;
@@ -329,7 +330,7 @@ li a:hover {
 
 
 #copyright {
-    flex-basis: 48%;
+    flex-basis: 70%;
 }
 
 #copyright p {
