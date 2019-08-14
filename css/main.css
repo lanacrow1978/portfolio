@@ -286,6 +286,7 @@ li a:hover {
 #footer-content {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     flex-flow: row wrap;
     width: 100%;
     background-color: black;
@@ -295,9 +296,8 @@ li a:hover {
 }
 
 #social {
-    width: 20%;
+    width: 30%;
     text-align: end;
-    align-content: flex-end;
     align-items: flex-end;
     -ms-align-items: flex-end !important;
 
