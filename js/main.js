@@ -54,7 +54,7 @@ $(document).ready(function(){
                 var form=$('#contactform').serialize();
                 var url=$('#contactform').attr('action');
                 
-                $('#overlay').show();
+                $('#overlay').fadeIn("slow");
                 
                 $.ajax({
                     type: 'post',
@@ -63,7 +63,7 @@ $(document).ready(function(){
                     
                     success: function(responce){
                        $('#contactform').trigger("reset"); 
-                        $('#overlay').hide();
+                        $('#overlay').fadeOut("slow");
                     }
                 })
                 

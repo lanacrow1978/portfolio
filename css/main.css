@@ -182,6 +182,7 @@ nav {
     float: right;
     text-align: right;
     width: 50px;
+    font-family: Orbitron;
 
 }
 
@@ -195,6 +196,7 @@ nav li {
     font-size: 0.8rem;
     padding-top: 0.2;
     background-color: white;
+    cursor: pointer;
 }
 
 
@@ -243,7 +245,7 @@ li a:hover {
     display: none;
     top: 100%;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
 }
 
 .dropdown-content li {
@@ -251,9 +253,6 @@ li a:hover {
     /*width: auto;*/
 }
 
-/*.dropdown:hover .dropdown-content{
-    display: block;
-}*/
 
 .fa {
     color: #343434;
@@ -296,7 +295,7 @@ li a:hover {
 }
 
 #social {
-    width: 30%;
+    width: 40%;
     text-align: end;
     align-items: flex-end;
     -ms-align-items: flex-end !important;
@@ -308,17 +307,16 @@ li a:hover {
     margin: 0;
     padding: 0;
     align-items: flex-end;
-    text-align: end !important;
-    -ms-text-align: end !important;
+    text-align: end;
     align-self: flex-end;
-    -ms-transform: translate(5rem);
+    -ms-transform: translate(10rem);
+    -webkit-box-align: end;
 }
 
 .social-links li {
     display: inline-block;
     padding: 0 3%;
     text-align: end;
-    -webkit-box-align: end;
 }
 
 
@@ -332,7 +330,7 @@ li a:hover {
 
 
 #copyright {
-    flex-basis: 70%;
+    flex-basis: 60%;
 }
 
 #copyright p {
@@ -343,7 +341,7 @@ li a:hover {
 
 #social i {
     color: #73CEC0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -790,6 +788,7 @@ li a:hover {
 
 #testimonials h2 {
     margin-bottom: 1.5em;
+    color: #73CEC0;
 }
 
 #testimonials p {
@@ -822,7 +821,7 @@ li a:hover {
 }
 
 #contact h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 input[type=text] {
@@ -943,14 +942,10 @@ label {
 }
 
 #text {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-   /* position: absolute;
-    top: 30%;*/
-    align-items: center;
-    margin-top: 20%;
-    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
     font-size: 2rem;
     color: #73CEC0;
 }
