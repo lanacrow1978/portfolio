@@ -63,7 +63,7 @@ $(document).ready(function(){
                     
                     success: function(responce){
                        $('#contactform').trigger("reset"); 
-                        $('#overlay').fadeOut("slow");
+                        $('#overlay').fadeOut(2000);
                     }
                 })
                 

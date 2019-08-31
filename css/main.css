@@ -182,8 +182,6 @@ nav {
     float: right;
     text-align: right;
     width: 50px;
-    font-family: Orbitron;
-
 }
 
 
@@ -193,7 +191,7 @@ nav li {
     padding: 11px;
     z-index: 1;
     line-height: 0.5;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-top: 0.2;
     background-color: white;
     cursor: pointer;
@@ -235,7 +233,6 @@ li a:hover {
 
 .dropdown {
     position: relative;
-    /*width: 10%;*/
 }
 
 .dropdown-content {
@@ -246,6 +243,7 @@ li a:hover {
     top: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  
 }
 
 .dropdown-content li {
