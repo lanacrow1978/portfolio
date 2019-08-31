@@ -540,8 +540,8 @@ li a:hover {
 
 .code {
     position: absolute;
-    font-size: 4.4vw;
-    margin-top: 30vh;
+    font-size: 4.5vw;
+    margin-top: 31.5vh;
     margin-left: 5.5%;
     font-weight: bolder;
     font-family: Orbitron, courier;
@@ -911,6 +911,14 @@ button[type='submit']:hover {
 
 label {
     margin-right: 10px;
+}
+
+.error {
+    color:#73CEC0;
+}
+
+#enquiry-error {
+    transform: translate(0px, -25px);
 }
 
 #wrapper {
