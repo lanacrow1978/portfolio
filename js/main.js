@@ -54,7 +54,7 @@ $(document).ready(function(){
                 var form=$('#contactform').serialize();
                 var url=$('#contactform').attr('action');
                 
-                $('#overlay').fadeIn("slow");
+                $('#overlay').fadeIn(2000);
                 
                 $.ajax({
                     type: 'post',
