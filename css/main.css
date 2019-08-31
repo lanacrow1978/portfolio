@@ -803,12 +803,9 @@ li a:hover {
 #contact {
     background-color: #f2f4f4;
     padding: 20px 0;
+
 }
 
-#contact #content-wrapper {
-    position: relative;
-    z-index: 1;
-}
 
 #contact-details ul {
     list-style: none;
@@ -916,10 +913,14 @@ label {
     margin-right: 10px;
 }
 
+#wrapper {
+    position: relative;
+    padding: 5px 0;
 
+}
 
 #overlay {
-   
+    display: none;
     position: absolute;
     z-index: 1;
     top: inherit;
