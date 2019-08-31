@@ -13,7 +13,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+    
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,6 +21,8 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900&display=swap" rel="stylesheet">
+    
+ 
     
 </head>
 
@@ -162,7 +164,7 @@
             </figure>
            
             <div>
-            <p>Originally a foreign languages teacher, I embarked on my designing and coding journey because of the great frustration I felt whilst browsing websites, and realised I wanted to decode what's behind the surface and understand how this crazy thing works, and how to make it better. My curiosity has fostered a real passion for UX - things can be so much more straightforward! I believe that simplicity is the key. We are often overwhelmed by a cascade of information arriving from all angles which can overshadow the key action buttons and links, and which confuses our user experience. My biggest mission is to build sites that are incredibly user friendly and are search engine optimised.
+            <p>Originally a foreign languages teacher, I embarked on my designing and coding journey because of the great frustration I felt whilst browsing websites, and realised I wanted to decode what's behind the surface and understand how this crazy thing works, and how to make it better. My curiosity has fostered a real passion for UX - things can be so much more straightforward! I believe that simplicity is the key. We are often overwhelmed by a cascade of information arriving from all angles and it confuses our user experience. My biggest mission is to build sites that are incredibly user friendly and are search engine optimised.
                 <br>
             
             I am a perfectionist and whilst it's very hard to attain such levels, I certainly strive to. Websites should look good and be functional at the same time. Why would anyone accept less?</p>
@@ -201,7 +203,7 @@
                 <img src="img/coding.png" class="skill-icon-img">
 
              <h4 class="skill-name">Development</h4>
-             <p class="skill-description">Build dynamic SEO optimized Wordpress sites, code SEO friendly responsive sites using HTML, CSS, basic JavaScript and jQuery.</p>     
+             <p class="skill-description">Build dynamic search engine optimized Wordpress sites, code SEO friendly responsive sites using HTML, CSS, basic JavaScript and jQuery.</p>     
             </article>
          </div>
         
@@ -229,14 +231,21 @@
     </div>      
            
 </section>
-    
+   
     <section id="contact">
-    
+      
+        
     <div class="content-wrapper">
+        <div id="overlay">
+        <div id="text">Thank you for your message. 
+            <br/>
+            <br/>
+            I will be in touch shortly.</div>
+        </div>
         
        <h2>Get in touch</h2> 
         
-    <div id="get-in-touch">
+        <div id="get-in-touch">
         
         <div id="contact-details">
         
@@ -250,32 +259,36 @@
         </div>
         
         <div id="contact-form">
-            
+      
         <h4>..or use the form</h4>
-         <form action="" method="post" target=_self>  
-            <input type="text" required placeholder="Your name">
-            <input type="text" required placeholder="Your e-mail">
+         <form action="send.php" method="post" id="contactform">  
+            <input type="text" required placeholder="Your name" name="name">
+            <input type="email" required placeholder="Your e-mail" name="email" required>
             
              <div id ="budget">
              <h5>Budget</h5>
             
         <label for="500">
-        <input id="500" type="radio" name="500-750-1,000 or over"> £500</label>
-        <label for="500-750-1,000 or over">
-    <input id="750" type="radio" name ="500-750-1,000 or over"> £750</label>
-        <label for="500-750-1,000 or over">
-    <input id="1000" type="radio" name ="500-750-1,000 or over"> £1,000 or over</label>
+        <input type="radio" id="500" value="500" type="radio" name="radio"> £500 or less</label>
+        <label for="750">
+    <input type="radio" id="750" value="750" name="radio"> £750</label>
+        <label for="1,000 or over">
+    <input id="1000" value="1000" type="radio" name ="radio"> £1,000 or over</label>
+
          </div>    
-        <input type="text" required placeholder="Description of your project" id="enquiry">
+        <input type="text" required placeholder="Description of your project" id="enquiry" name="enquiry" required>
              
-        <button type="submit" input type="submit">Send it off!</button>
+        <button type="submit" input type="submit" id="submit" name="submit">Send it off!</button>
             
              </form>
+       
+      
+        
         </div>
         
         </div> 
         </div>
-    
+
     </section>
     
     </main>
@@ -289,7 +302,7 @@
         </div>
         <div id="social">
             <ul class="social-links">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fab fa-facebook"></i></a>
+            <li><a href="https://www.facebook.com/lana.crow.779/about?section=contact_basic&lst=100040679315549%3A100040679315549%3A1565812854" target="_blank"><i class="fa fab fa-facebook"></i></a>
             </li>
             <li><a href="https://www.twitter.com" target="_blank"><i class="fa fab fa-twitter"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank"><i class="fa fab fa-instagram"></i></a></li> 
@@ -305,18 +318,20 @@
 
    
 
-    
-    
-    
-    
-
-    
  
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+    
+    
+    
+    
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -324,9 +339,39 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 
+    <script>
+    
+    $(document).ready(function(){
+        
+        
+        $('#contactform').validate({
+            submitHandler: function(form) {
+                
+                var form=$('#contactform').serialize();
+                var url=$('#contactform').attr('action');
+                
+                $('#overlay').show();
+                
+                $.ajax({
+                    type: 'post',
+                    url: url,
+                    data: form,
+                    
+                    success: function(responce){
+                       $('#contactform').trigger("reset"); 
+                        $('#overlay').hide();
+                    }
+                })
+                
+            }
+        });
+    });
+    
+    
+    </script>
+    
+</body>
 </html>

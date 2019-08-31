@@ -310,13 +310,15 @@ li a:hover {
     align-items: flex-end;
     text-align: end !important;
     -ms-text-align: end !important;
-    float: right;
+    align-self: flex-end;
+    -ms-transform: translate(5rem);
 }
 
 .social-links li {
     display: inline-block;
     padding: 0 3%;
     text-align: end;
+    -webkit-box-align: end;
 }
 
 
@@ -776,6 +778,7 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+
 }
 
 #testimonials article {
@@ -802,6 +805,11 @@ li a:hover {
     padding: 20px 0;
 }
 
+#contact #content-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
 #contact-details ul {
     list-style: none;
    text-align: center;
@@ -821,6 +829,17 @@ li a:hover {
 }
 
 input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    font-style: italic;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=email] {
     box-sizing: border-box;
     width: 100%;
     font-style: italic;
@@ -895,6 +914,36 @@ button[type='submit']:hover {
 
 label {
     margin-right: 10px;
+}
+
+
+
+#overlay {
+   
+    position: absolute;
+    z-index: 1;
+    top: inherit;
+    left: 0;
+    right: 0;
+    bottom: inherit;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f4f4;
+    text-align: center;
+    
+}
+
+#text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   /* position: absolute;
+    top: 30%;*/
+    align-items: center;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 2rem;
+    color: #73CEC0;
 }
 
 
@@ -1160,6 +1209,9 @@ nav li {
     margin-top: 20vh;
     margin-left: 80%;
 }
+    
+   
+
 
 }
 
