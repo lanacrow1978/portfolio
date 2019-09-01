@@ -1,12 +1,4 @@
-/*jQuery(document).ready(function(){});*/
-
-/*$('#menu').click(function() {
-     $('#menu-dropdown-content').toggle();
-  });
-
-$('#language').click(function() {
-     $('#lang-dropdown-content').toggle();
-  });*/
+// menu toggle
 
 $(document).ready(function(){
 
@@ -44,6 +36,8 @@ $("#lang-dropdown-content").hide();
 
 });
 
+
+//form validation
 
 $(document).ready(function(){
         
