@@ -48,7 +48,7 @@ $(document).ready(function(){
                 var form=$('#contactform').serialize();
                 var url=$('#contactform').attr('action');
                 
-                $('#overlay').fadeIn(2000);
+                $('#overlay').fadeIn(1800);
                 
                 $.ajax({
                     type: 'post',
@@ -57,7 +57,7 @@ $(document).ready(function(){
                     
                     success: function(responce){
                        $('#contactform').trigger("reset"); 
-                        $('#overlay').fadeOut(2000);
+                        $('#overlay').fadeOut(1800);
                     }
                 })
                 
