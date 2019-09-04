@@ -417,7 +417,7 @@ li a:hover {
 
 .star-4 {
     margin-top: 11.7%;
-    margin-left: 32.5%;
+    margin-left: 32.3%;
     animation-duration: 1.2s;
     animation-name: twinkle;
 }
@@ -501,8 +501,6 @@ li a:hover {
     position: absolute;
     z-index: 1;
     bottom: 0;
-    max-width: 90%;
-    /*display: block;*/
     height: auto;
     max-height: 58vh;
 
@@ -773,7 +771,7 @@ li a:hover {
 
 #testimonials article {
     flex-basis: 100%;
-    align-items: baseline;
+    align-items: center;
     margin-top: 3%;
     margin-bottom: 0;  
 }
@@ -1031,10 +1029,13 @@ label {
     
     /*testimonials*/
     
-    #testimonials article {
+   
+    
+     #testimonials article {
     flex-basis: 30%;
     }
     
+   
    /*contact section*/
     
     #get-in-touch {
@@ -1130,7 +1131,7 @@ nav li {
 
     
   #skills article {
-        width: 30%;
+    width: 30%;
       margin-bottom: 0;
     }
     
@@ -1139,6 +1140,8 @@ nav li {
     #testimonials article {
     flex-basis: 30%;
     }
+    
+   
     
   /*contact section*/
     
