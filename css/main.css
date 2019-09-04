@@ -416,8 +416,8 @@ li a:hover {
 }
 
 .star-4 {
-    margin-top: 11.6%;
-    margin-left: 33%;
+    margin-top: 11.7%;
+    margin-left: 32.5%;
     animation-duration: 1.2s;
     animation-name: twinkle;
 }
@@ -432,8 +432,8 @@ li a:hover {
 .star-6 {
     margin-top: 5%;
     margin-left: 80%;
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
 }
 
 .star-7 {
@@ -779,7 +779,7 @@ li a:hover {
 }
 
 #testimonials h2 {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     color: #73CEC0;
 }
 
