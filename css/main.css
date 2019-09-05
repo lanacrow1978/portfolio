@@ -275,7 +275,7 @@ li a:hover {
 
 
 #footer-content {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-flow: row wrap;
@@ -288,12 +288,7 @@ li a:hover {
 
 #social {
     width: 40%;
-    text-align: end;
-    align-items: flex-end;
-    -ms-align-items: flex-end !important;
-    align-content: flex-end;
-    flex-direction: row wrap;
-    padding-right: 0;
+    text-align: right;
 
 }
 
