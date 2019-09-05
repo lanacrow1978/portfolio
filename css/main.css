@@ -291,6 +291,9 @@ li a:hover {
     text-align: end;
     align-items: flex-end;
     -ms-align-items: flex-end !important;
+    align-content: flex-end;
+    flex-direction: row wrap;
+    padding-right: 0;
 
 }
 
