@@ -275,7 +275,7 @@ li a:hover {
 
 
 #footer-content {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
     flex-flow: row wrap;
@@ -775,8 +775,10 @@ li a:hover {
 }
 
 #testimonials h2 {
-    margin-bottom: 1em;
+    margin-bottom: 1.5%;
     color: #73CEC0;
+    padding-top: 2%;
+    
 }
 
 #testimonials p {
