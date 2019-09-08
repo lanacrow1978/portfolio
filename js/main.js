@@ -67,3 +67,61 @@ $(document).ready(function(){
  
 
 
+/*$(document).on("scroll", function () {
+var pageTop = $(document).scrollTop()
+var pageBottom = pageTop + $(window).height()
+var tags = $("article")
+
+for (var i = 0; i < tags.length; i++) {
+var tag = tags[i]
+
+if ($(tag).position().top < pageBottom) {
+$(tag).addClass("visible")
+} else {
+  $(tag).removeClass("visible")
+}
+}
+})*/
+
+/*$(document).ready(function() {
+    
+   
+    $(window).scroll( function(){
+    
+      
+        $('.fade').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},750);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});*/
+
+
+
+
+/*$(document).ready(function(){
+$(document).on("scroll", function(){
+    var scrollTop=$(document).scrollTop()
+    var scrollBottom=scrollTop+$(window).height()
+    var pageBottom=$(document).height()
+    var diff = pageBottom - scrollBottom
+    var opacity = 1 - diff/300
+    $("div.fadein").css("opacity", opacity)
+})
+    })*/
+
+
+    
+
+
