@@ -759,11 +759,37 @@ li a:hover {
     margin-bottom: 2em;
 }
 
+
+/*making skill icons jump*/
+
+.movement-waypoint {
+    animation: jump .5s;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+     transform: translateY(20px);
+  }
+    60% {
+     transform: translateY(0px);
+  }
+   90% {
+     transform: translateY(10px);
+  } 
+  100% {
+     transform: translateY(0px);
+  }
+}
+
+
 /*diagrams*/
 
 #diagrams {
     background-color: #EDECEA;
-    padding: 3% 0;
+    padding: 3%;
     
 }
 
@@ -847,7 +873,18 @@ li a:hover {
 
 #testimonials p {
     text-align: center;
+    
 }
+
+.fadein {
+    opacity: 0.2;
+    transition: all 1.5s ease-in;
+}
+
+.fadein-waypoint {
+    opacity: 1;
+}
+
 
 
 /*contact*/
@@ -1004,26 +1041,22 @@ label {
     color: #73CEC0;
 }
 
-.fadein {
-    opacity: 0;
-    transition: all 350ms ease-in;
+
+/*
+#contact h2 {
+    animation: slidein 3s;
 }
 
-.fadein-waypoint {
-    opacity: 1;
-}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
 
-/*article {
-opacity: 0;
-transform: translate(0, 20px); 
-transition: all 3s;
-}
+  to {
+    margin-left: 0%;
+  }
+}*/
 
-article.visible {
-opacity: 1;
-transform: translate(0, 0); 
-}
-*/
 
 /*Dorothy*/
 

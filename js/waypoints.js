@@ -1,4 +1,4 @@
-// fading in Skills section on scroll
+// fading in portfolio section on scroll
 
 
 var $fadein = $(".fadein");
@@ -11,6 +11,17 @@ $fadein.waypoint(function(direction){
         }
 }, {offset: '50%'});
 
+// jumping skill icons
+
+var $move = $(".movement");
+
+$move.waypoint(function(direction){
+    if (direction == 'down'){
+    $move.addClass('movement-waypoint');
+        } else {
+      $move.removeClass('movement-waypoint');      
+        }
+}, {offset: '50%'});
 
 //sliding in the tech skills diagram
 
@@ -24,7 +35,7 @@ $slideInLeft.waypoint(function(direction){
         } else {
       $slideInLeft.removeClass('diagram-animate-left');      
         }
-}, {offset: '70%'});
+}, {offset: '50%'});
 
 
 
@@ -38,8 +49,9 @@ $slideInRight.waypoint(function(direction){
         } else {
       $slideInRight.removeClass('diagram-animate-right');      
         }
-}, {offset: '80%'});
+}, {offset: '50%'});
 
 });
+
 
 
