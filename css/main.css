@@ -181,7 +181,7 @@ nav {
 #menu {
     float: right;
     text-align: right;
-    width: 10%;
+    width: 9%;
 }
 
 
@@ -242,6 +242,15 @@ li a:hover {
     background-color: white;
   
 }
+
+#menu-dropdown-content {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#lang-dropdown-content {
+    box-shadow: none;
+}
+
 
 .dropdown-content li {
     background-color: white;
@@ -760,6 +769,7 @@ li a:hover {
 }
 
 
+
 /*making skill icons jump*/
 
 .movement-waypoint {
@@ -798,11 +808,14 @@ li a:hover {
     justify-content: space-between;
     flex-flow: row wrap;  
     align-items: center;
+    margin: 4% 2% 2% 2%;
 }
 
 #diagrams-img figure {
     width: 100%;
-    align-items: center;  
+    align-items: center; 
+    margin-top: 4%;
+   
 }
 
 #diagrams-img img {
@@ -876,14 +889,6 @@ li a:hover {
     
 }
 
-.fadein {
-    opacity: 0.2;
-    transition: all 1.5s ease-in;
-}
-
-.fadein-waypoint {
-    opacity: 1;
-}
 
 
 
@@ -1041,6 +1046,18 @@ label {
     color: #73CEC0;
 }
 
+/*fade in effect*/
+
+.fadein {
+    opacity: 0.2;
+    transition: all 1s ease-in;
+}
+
+.fadein-waypoint {
+    opacity: 1;
+}
+
+
 
 /*
 #contact h2 {
@@ -1148,6 +1165,8 @@ label {
     #diagrams-img figure {
     width: 45%;
     }
+
+
     
     /*testimonials*/
     
@@ -1261,6 +1280,8 @@ nav li {
     #diagrams-img figure {
     width: 45%;
     }
+    
+
     
     /*testimonials*/
     

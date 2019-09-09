@@ -21,6 +21,7 @@
   
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     
  
     
@@ -49,9 +50,10 @@
            
         <li id="menu" class="dropdown"><i class="fa fa-bars"></i>
             <ul id="menu-dropdown-content" class="dropdown-content">
-                <li class="menu-nav-item"><a href="#portfolio">Portfolio</a></li>   
-                <li class="menu-nav-item"><a href="#about">About&nbsp;me</a></li>
-                <li class="menu-nav-item"><a href="#contact">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>   
+                <li><a href="#about">About&nbsp;me</a></li>
+                <li><a href="#testimonials">Referenzen</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
          </li> 
         </ul>
@@ -185,7 +187,7 @@
             <div id="skill">
             <article> 
 
-                <img src="../img/ux-design-icon.png" class="skill-icon-img" alt="ux design icon">
+                <img src="../img/ux-design-icon.png" class="skill-icon-img movement" alt="ux design icon">
 
              <h4 class="skill-name">User Experience</h4>
              <p class="skill-description">Conceiving and conducting user research, translating the results into sitemaps, user flows, mockups and prototypes.</p>
@@ -193,7 +195,7 @@
             
              <article> 
 
-                <img src="../img/paint-with-pallette.png" class="skill-icon-img" alt="visual design icon">
+                <img src="../img/paint-with-pallette.png" class="skill-icon-img movement" alt="visual design icon">
   
              <h4 class="skill-name">Visual Design</h4>
              <p class="skill-description">Shape and improve the user experience through smart combination of colors, typography, space and layouts.</p>
@@ -201,7 +203,7 @@
             
              <article> 
 
-                <img src="../img/coding.png" class="skill-icon-img" alt="development icon">
+                <img src="../img/coding.png" class="skill-icon-img movement" alt="development icon">
 
              <h4 class="skill-name">Development</h4>
              <p class="skill-description">Build dynamic Wordpress sites, code SEO friendly responsive sites using HTML, CSS, basic JavaScript and jQuery.</p>     
@@ -212,7 +214,25 @@
         
 </section>
     
-<section id="testimonials">
+    <section id="diagrams">
+    <div class="content_wrapper">
+    
+   
+        <div id="diagrams-img">
+            <figure id="left" class="slidein-left">
+            <img src="../img/tech-skills.png" alt="tech skills diagram"> 
+            </figure>
+            <figure id="right" class="slidein-right">
+              <img src="../img/languages-eng.png" alt="language skills diagram"> 
+            </figure>
+        </div>
+  
+    </div>
+    
+    
+</section>
+    
+<section id="testimonials" class="fadein">
     <div class="content-wrapper">
         <h2>Testimonials</h2>
         <div id="reviews">
@@ -333,6 +353,8 @@ I am a very happy customer.<br/><em>Julie W.</em></p>
     <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   crossorigin="anonymous"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+   <script src="../js/waypoints.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
     
     
