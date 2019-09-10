@@ -558,7 +558,15 @@ li a:hover {
 .code span {
     font-size: 1vw;
     color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.code fa {
+    color: black;
+    font-size: 1em;
+}
+
+
 
  
 
@@ -672,12 +680,12 @@ li a:hover {
     margin-top: 2%;
 }
 
-#about figure {
+/*#about figure {
     width: 50%;
-}
+}*/
 
 #about h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 #about article div {
@@ -693,7 +701,7 @@ li a:hover {
 }
 
 #about p {
-    text-align: justify;
+    text-align: center;
     font-size: 0.95rem;
     
 }
@@ -1142,7 +1150,7 @@ label {
 /*About section*/
     
     
-     #about article div {
+   /*  #about article div {
     width: 60%;
   }
     
@@ -1155,7 +1163,7 @@ label {
         display: flex;
         justify-content: space-between;
         text-align: left;
-    } 
+    } */
  
    
     
@@ -1258,7 +1266,7 @@ nav li {
 /*About section*/
     
     
-  #about article div {
+  /*#about article div {
     width: 58%;
   }
     
@@ -1271,7 +1279,7 @@ nav li {
         display: flex;
         justify-content: space-between;
         text-align: left;
-    } 
+    } */
     
 /*skills section*/
     
