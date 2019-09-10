@@ -21,7 +21,7 @@ $move.waypoint(function(direction){
         } else {
       $move.removeClass('movement-waypoint');      
         }
-}, {offset: '50%'});
+}, {offset: '60%'});
 
 //sliding in the tech skills diagram
 
@@ -52,6 +52,9 @@ $slideInRight.waypoint(function(direction){
 }, {offset: '50%'});
 
 });
+
+
+
 
 
 
