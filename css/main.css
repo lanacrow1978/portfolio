@@ -508,6 +508,7 @@ li a:hover {
     align-items: center;
     flex-direction: row;
     width: 100%;
+    align-content: center;
 
 }
 
@@ -519,7 +520,7 @@ li a:hover {
     bottom: 0;
     height: auto;
     max-height: 58vh;
-    margin: auto;
+    right: 32%;
     display: block;
 
 }
