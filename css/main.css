@@ -378,6 +378,10 @@ li a:hover {
     text-align: center;
 }
 
+#title {
+    margin-top: 1.5rem;
+}
+
 
 
 
@@ -501,6 +505,7 @@ li a:hover {
     /*flex-flow: row;*/
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -1160,6 +1165,9 @@ label {
         margin-bottom: 0;
 }
     
+
+/*portfolio*/
+    
  .project-description {
         width: 45%;
         margin: 0;
@@ -1255,6 +1263,13 @@ nav li {
         margin-bottom: 0;
 }
     
+/*name
+    
+    #name {
+        margin-bottom: 3rem;
+    }
+    
+ */
     
  .project-description {
         width: 45%;
