@@ -181,7 +181,8 @@ nav {
 #menu {
     float: right;
     text-align: right;
-    width: 10%;
+    width: 9%;
+    margin-right: 1%;
 }
 
 
