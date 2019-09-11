@@ -498,9 +498,9 @@ li a:hover {
 #face {
     z-index: 1;
     display: flex;
-    flex-flow: row;
+    /*flex-flow: row;*/
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 
 }
 
