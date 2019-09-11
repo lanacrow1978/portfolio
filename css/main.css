@@ -521,7 +521,9 @@ li a:hover {
     height: auto;
     max-height: 58vh;
     left: 50%;
-    margin-left: -20%;
+    margin-left: -17%;
+    right: 50%;
+    margin-right: -17%;
     display: block;
 }
 
