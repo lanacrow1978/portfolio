@@ -169,7 +169,7 @@ img {
 }
 
 
-/*header*/
+/*--------------------header----------------------*/
 
 nav { 
     background-color: white;
@@ -211,7 +211,7 @@ li a {
 
 #language .lang-nav-item a{
     font-size: 1em;
-     padding-right: 0;
+
 }
 
 #language li a:hover {
@@ -281,7 +281,7 @@ li a:hover {
 }
 
 
-/*footer*/
+/*------------------------footer-------------------------*/
 
 
 #footer-content {
@@ -347,7 +347,7 @@ li a:hover {
 
 
 
-/*name section*/
+/*---------------------------name section------------------------*/
 
 
 #name h1 {
@@ -380,7 +380,7 @@ li a:hover {
 
 
 
-/*hero-img*/
+/*-------------------hero-img--------------------------------*/
 
 .max-container {
     width: 100%;
@@ -567,11 +567,9 @@ li a:hover {
 }
 
 
-
  
 
-/*Portfolio*/
-
+/*--------------Portfolio-----------------*/
 
 
 .project-container {
@@ -670,7 +668,7 @@ li a:hover {
 }
 
 
-/*About me*/
+/*-----------------------About me-----------------------*/
 
 
 #about {
@@ -680,33 +678,37 @@ li a:hover {
     margin-top: 2%;
 }
 
-/*#about figure {
-    width: 50%;
-}*/
 
 #about h2 {
-  margin-bottom: 1.2rem;
-    color: 
+  margin-bottom: 3.5rem;
+    padding-top: 1rem;
+
 }
 
 #about article div {
-    margin-top: 3%;
+    margin: 6% 0%;
+    -webkit-perspective: 300;
 }
 
 #about article {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    text-align: center;
+    text-align: justify;
     align-items: center;
 }
 
 #about p {
     text-align: center;
     font-size: 0.95rem;
+    font-weight:400;
     color: black;
-    font-weight:500;
-    
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+
 }
 
 
@@ -717,9 +719,29 @@ li a:hover {
     font-size: 1.1rem;
 }
 
-#about button {
-    box-shadow: 0px 12px 18px -6px rgba(115,206,192,0.3);
+#about .button {
+
+    box-shadow: 0px 2px 0px #3F6560, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 4px 0px #3F6560;
+    box-shadow: 0px 3px 0px #3F6560, 0px 4px 15px rgba(0,0,0,.4);
+    background-image: linear-gradient(bottom, rgb(115,170,162) 0%, rgb(115,206,192) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(115,170,162) 0%, rgb(115,206,192) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(115,170,162) 0%, rgb(115,206,192) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(115,170,162) 0%, rgb(115,206,192) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(115,170,162) 0%, rgb(115,206,192) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(115,170,162)),
+        color-stop(1, rgb(115,206,192))
+    );
+    
+    -webkit-transform: rotateX(5deg);
+
 }
+
 
 
 #about a:hover {
@@ -739,7 +761,7 @@ li a:hover {
 }
 
 #background {
-    background: url('../img/london.png') center no-repeat #EDECEA;
+    background: url('../img/london.jpg') center no-repeat #EDECEA;
     background-size: cover;
     position: absolute;
     z-index: -1;
@@ -754,7 +776,7 @@ li a:hover {
 
 
 
-/*skills section*/
+/*--------------------skills section---------------------*/
 
 #skills {
     display: flex;
@@ -825,7 +847,7 @@ li a:hover {
 }
 
 
-/*diagrams*/
+/*---------------------diagrams------------------------*/
 
 #diagrams {
     background-color: #EDECEA;
@@ -892,7 +914,7 @@ li a:hover {
 
 
 
-/*testimonials*/
+/*--------------------testimonials--------------------*/
 
 
 #reviews {
@@ -922,7 +944,7 @@ li a:hover {
 
 
 
-/*contact*/
+/*----------------------contact------------------------*/
 
 
 #contact {
@@ -1105,7 +1127,7 @@ label {
 }*/
 
 
-/*Dorothy*/
+/*------------------Dorothy page--------------------*/
 
 .full-page-img {
     width: 100%;
@@ -1119,6 +1141,9 @@ label {
     display: block;
 }
 
+
+
+/*------------------Media queries---------------------*/
 
 @media only screen and (min-width: 768px) {
     /* Tablet styles here */
@@ -1157,26 +1182,6 @@ label {
     
 
     
-/*About section*/
-    
-    
-   /*  #about article div {
-    width: 60%;
-  }
-    
-    #about article figure {
-        width: 30%;
-        margin: 0 3%;
-    }
-    
-    #about article {
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    } */
- 
-   
-    
     /*skills section*/
     
     #skill {
@@ -1190,6 +1195,7 @@ label {
         margin-bottom: 0;
     }
     
+   
     /*diagrams*/
     
     #diagrams-img figure {
@@ -1272,25 +1278,7 @@ nav li {
 }
     
 
-    
-/*About section*/
-    
-    
-  /*#about article div {
-    width: 58%;
-  }
-    
-    #about article figure {
-        width: 28%;
-        margin: 0 3%;
-    }
-    
-    #about article {
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    } */
-    
+
 /*skills section*/
     
      #skill {
@@ -1304,6 +1292,7 @@ nav li {
     width: 30%;
       margin-bottom: 0;
     }
+    
     
     /*diagrams*/
     
@@ -1350,8 +1339,8 @@ nav li {
     /*header*/
     
     nav li {
-    padding: 0.5em;
-    font-size: 0.7rem;
+    padding: 0.7em;
+    font-size: 0.9rem;
 }
 
     
@@ -1383,7 +1372,6 @@ nav li {
     margin-top: 20vh;
     margin-left: 80%;
 }
-    
 
 
 }

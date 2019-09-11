@@ -1,6 +1,6 @@
 // fading in portfolio section on scroll
 
-
+$(document).ready(function(){
 var $fadein = $(".fadein");
 
 $fadein.waypoint(function(direction){
@@ -10,9 +10,11 @@ $fadein.waypoint(function(direction){
       $fadein.removeClass('fadein-waypoint');      
         }
 }, {offset: '50%'});
+});
 
 // jumping skill icons
 
+$(document).ready(function(){
 var $move = $(".movement");
 
 $move.waypoint(function(direction){
@@ -22,6 +24,7 @@ $move.waypoint(function(direction){
       $move.removeClass('movement-waypoint');      
         }
 }, {offset: '60%'});
+});
 
 //sliding in the tech skills diagram
 
