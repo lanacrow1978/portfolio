@@ -138,6 +138,7 @@ h2, h3, h4, h5 {
 p {
     color: #4B4C4C;
     -webkit-font-smoothing: antialiased;
+    font-size: 1.1em;
 }
 
 a {
@@ -505,7 +506,8 @@ li a:hover {
     /*flex-flow: row;*/
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
 
 }
 
@@ -518,6 +520,7 @@ li a:hover {
     height: auto;
     max-height: 58vh;
     margin: auto;
+    display: block;
 
 }
 
@@ -714,7 +717,7 @@ li a:hover {
     padding: 0.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-
+    font-size: 1.1em;
 
 }
 
