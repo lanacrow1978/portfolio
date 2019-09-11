@@ -503,7 +503,7 @@ li a:hover {
 #face {
     z-index: 1;
     display: flex;
-    /*flex-flow: row;*/
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -520,9 +520,9 @@ li a:hover {
     bottom: 0;
     height: auto;
     max-height: 58vh;
-    right: 32%;
+    left: 50%;
+    margin-left: -20%;
     display: block;
-
 }
 
 .design {
