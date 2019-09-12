@@ -379,7 +379,7 @@ li a:hover {
 }
 
 #title {
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -719,7 +719,7 @@ li a:hover {
     font-weight:400;
     color: black;
     background-color: rgba(255,255,255,0.5);
-    padding: 0.5rem;
+    padding: 0.6rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     font-size: 1.1em;
