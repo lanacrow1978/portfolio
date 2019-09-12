@@ -516,11 +516,14 @@ li a:hover {
 
 #face img {
     position: absolute;
-    z-index: 2;
     bottom: 0;
     height: auto;
     max-height: 58vh;
     display: block;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .design {
