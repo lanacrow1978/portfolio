@@ -246,6 +246,7 @@ li a:hover {
 
 #menu-dropdown-content {
     font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
 }
 
 #lang-dropdown-content {
@@ -379,7 +380,7 @@ li a:hover {
 }
 
 #title {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
 }
 
 
@@ -543,6 +544,7 @@ li a:hover {
     color: white;
     text-align: left;
     color: black;
+    font-weight: 500;
 }
 
 .code {
@@ -1156,6 +1158,31 @@ label {
     display: block;
 }
 
+.home-button {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000; /*for older browsers*/
+    color: RGBA(0, 0, 0, 0.5);
+    background-color: rgba(115, 206, 192, 0.80);
+    font-size: 1.05em;
+    font-weight: 800;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+   
+}
+
+.home-button:hover {
+    background-color: rgba(115, 206, 192, 0.90);
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 /*------------------Media queries---------------------*/
@@ -1166,7 +1193,7 @@ label {
     
 p {
     
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
     
  nav li {
@@ -1270,7 +1297,7 @@ p {
 
 p {
     
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
     
     
