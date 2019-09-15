@@ -70,7 +70,8 @@ $(document).ready(function(){
 /*back-home button on dorothy design and cv pages*/
 
 $(document).ready(function() {
-    var offset=200;
+    
+    var offset=200; //where the button appears
     var duration=500;
    
     $(window).scroll(function(){
@@ -82,11 +83,6 @@ $(document).ready(function() {
        }
     });
     
-   /* $('.home-button').click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })*/
 });
 
 
