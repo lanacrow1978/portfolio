@@ -182,7 +182,6 @@ nav {
     float: right;
     text-align: right;
     width: 8%;
-    padding-right: 1%;
 }
 
 
@@ -212,6 +211,7 @@ li a {
 
 #language .lang-nav-item a{
     font-size: 1em;
+    line-height: 1.1;
 
 }
 
@@ -364,10 +364,6 @@ li a:hover {
     text-align: center;
 }
 
-#name div {
-    padding-top: 2%;
-
-}
 
 #title h1 {
     font-size: 3.5vw;
@@ -375,7 +371,6 @@ li a:hover {
     color:#4B4C4C;
     text-align: center;
     width: 100%;
-    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -1212,7 +1207,7 @@ p {
 }
     
 #title h1 {
-        margin-bottom: 0.8em;
+        margin-bottom: 0.5em;
 }
     
     
@@ -1329,7 +1324,7 @@ nav li {
 }
     
  #title h1 {
-    margin-bottom: 0.8em;
+    margin-bottom: 0.5em;
 }
     
  
