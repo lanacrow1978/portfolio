@@ -72,7 +72,7 @@ $(document).ready(function(){
 $(document).ready(function() {
     
     var offset=200; //where the button appears
-    var duration=500;
+    var duration=500; //how long the scrolltop effect lasts
    
     $(window).scroll(function(){
     
