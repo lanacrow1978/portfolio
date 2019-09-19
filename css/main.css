@@ -132,12 +132,15 @@ h1 {
 h2, h3, h4, h5 {
     text-align: center;
     color:#4B4C4C;
+ 
 }
 
 
 p {
     color: #4B4C4C;
+    font-smooth: auto;
     -webkit-font-smoothing: antialiased;
+
 }
 
 a {
@@ -171,11 +174,26 @@ img {
 
 /*--------------------header----------------------*/
 
+header {
+    background-color: black;
+    padding-top: 2px;
+    margin: 0;
+    z-index: 0;
+    
+}
+
+header ul {
+    margin-bottom: 0;
+}
+
 nav { 
-    background-color: white;
+    background-color: black;
     width: 95%;
     margin: auto;
     margin-top: 2%;
+    z-index: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #menu {
@@ -192,7 +210,7 @@ nav li {
     z-index: 1;
     line-height: 0.8;
     font-size: 1em;
-    background-color: white;
+    /*background-color: black;*/
     cursor: pointer;
 
 }
@@ -200,7 +218,7 @@ nav li {
  
 li a {
     text-decoration: none;
-    color: #343434;      
+    color: white;      
 }
 
 #language a {
@@ -211,12 +229,12 @@ li a {
 
 #language .lang-nav-item a{
     font-size: 1em;
-    line-height: 1.1;
+    line-height: 1.2;
 
 }
 
 #language li a:hover {
-    color: #343434;
+    color: white;
 }
 
 li a:active, li a:hover {
@@ -240,13 +258,13 @@ li a:hover {
     top: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    background-color: white;
   
 }
 
 #menu-dropdown-content {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
+    text-align: right;
 }
 
 #lang-dropdown-content {
@@ -254,9 +272,9 @@ li a:hover {
 }
 
 
-.dropdown-content li {
+/*.dropdown-content li {
     background-color: white;
-}
+}*/
 
 
 .fa {
@@ -276,6 +294,7 @@ li a:hover {
 
 #menu .fa {
     font-size: 2.3em;
+    color: white;
 }
 
 .lang {
@@ -355,22 +374,43 @@ li a:hover {
 #name h1 {
     font-weight: bolder;
     font-size: 8.8vw;
-    text-align: center;
-    line-height: 0.5;
+    /*text-align: center;*/
+    color: white;
+    line-height: 0.7;
+
 }
 
 #name h1 span {
     color: #73CEC0;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
 #title h1 {
     font-size: 3.5vw;
-    line-height: 0.8;
     color:#4B4C4C;
-    text-align: center;
+    /*text-align: center;*/
+    padding-top: 15px;
+    background: -webkit-linear-gradient(#eee, #73CEC0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    line-height: 0.7;
+}
+
+#name {
+    z-index: 2147483638;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -383,7 +423,9 @@ li a:hover {
     background: linear-gradient(black, #000099, #66c2ff, #ffcccc);  
     position: relative;
     margin: 0;
-    height: 65vh;
+    height: 91vh;
+    padding-top: 2px;
+    z-index: -2;
 
 }
 
@@ -392,8 +434,8 @@ li a:hover {
 .stars {
     background-color: white;
     position: absolute;
-    height: 6px;
-    width: 6px;
+    height: 5px;
+    width: 5px;
     border-radius: 50%;
     animation-iteration-count: infinite;
 }
@@ -434,34 +476,58 @@ li a:hover {
 }
 
 .star-6 {
-    margin-top: 5%;
-    margin-left: 80%;
-    height: 4px;
-    width: 4px;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    animation-duration: 1.2s;
+    animation-name: twinkle;
 }
 
 .star-7 {
+    margin-top: 0.5%;
+    margin-left: 30%;
+    animation-duration: 1.2s;
+    animation-name: twinkle;
+}
+
+.star-8 {
+    margin-top: 5%;
+    margin-left: 80%;
+    height: 2px;
+    width: 2px;
+}
+
+.star-9 {
     margin-top: 10%;
     margin-left: 90%;
     height: 3px;
     width: 3px;
 }
 
-.star-8 {
+.star-10 {
     margin-top: 11%;
     margin-left: 80%;
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
 }
 
-.star-9 {
+.star-11 {
     margin-top: 12%;
     margin-left: 65%;
 }
 
-.star-10 {
+.star-12 {
     margin-top: 7%;
     margin-left: 95%;
+}
+
+.star-13 {
+    margin-top: 0.5%;
+    margin-left: 90%;
+}
+
+.star-14 {
+    margin-top: 0.5%;
+    margin-left: 68%;
 }
 
 
@@ -474,24 +540,26 @@ li a:hover {
 }
 
 
-#gradient img {
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-}
-
 .max-container figure {
    position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
-    left: 50%;
-
+    left: 49.7%;
+    z-index: -1;
 
 }
 
+#gradient img {
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+
 #face {
-    z-index: 1;
+    z-index: 10;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -508,12 +576,13 @@ li a:hover {
     position: absolute;
     bottom: 0;
     height: auto;
-    max-height: 58vh;
+    max-height: 64vh;
     display: block;
     left:0;
     right:0;
     margin-left:auto;
     margin-right:auto;
+    z-index: 10
 }
 
 .design {
@@ -703,6 +772,7 @@ li a:hover {
     flex-flow: row wrap;
     text-align: justify;
     align-items: center;
+    margin-top: 7%;
 }
 
 #about p {
@@ -814,9 +884,10 @@ li a:hover {
     align-items: baseline;
 }
 
-#skill h4 {
-    margin-top: 30px;
+#skill h3 {
+    margin: 30px 0 20px 0;
     color: white;
+    font-size: 1.6rem;
 }
 
 #skills h2 {
@@ -1420,16 +1491,16 @@ nav li {
 
     
  .max-container {
-    max-height: 35vh;
+    max-height: 50vh;
 }
     
  #face img {
     height: inherit;
-    max-height: 32vh;
+    max-height: 35vh;
 }
 
 .code {
-    margin-top: 20vh;
+    margin-top: 18vh;
     margin-left: 5%;
 }
 
@@ -1444,11 +1515,21 @@ nav li {
 }
     
  .design {
-    margin-top: 20vh;
+    margin-top: 17.5vh;
     margin-left: 80%;
 }
+    
+    .design p {
+        margin-top: 1%;
+        line-height: 1.2;
+    }
 
+.stars {
+   
+    height: 3px;
+    width: 3px;
 
+}
 }
 
 
