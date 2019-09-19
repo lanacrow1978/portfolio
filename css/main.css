@@ -574,7 +574,7 @@ li a:hover {
 #face img {
     position: absolute;
     bottom: 0;
-    height: auto;
+    /*height: auto;*/
     max-height: 64vh;
     display: block;
     left:0;
@@ -1541,7 +1541,12 @@ and (max-device-width : 667px)
 and (orientation : landscape) { 
     
      .max-container {
-    max-height: 60vh;
+    max-height: 65vh;
+}
+    
+    #face img {
+    height: inherit;
+    max-height: 50vh;
 }
     
     
