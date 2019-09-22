@@ -1261,11 +1261,11 @@ label {
     border-bottom-left-radius: 10px;
 }
 
-.back-to-top:hover {    
+/*.back-to-top:hover {    
     background-color: rgba(115, 206, 192, 0.8);
     font-size: 1.05em;
     text-decoration: none;
-}
+}*/
 
 
 /*------------------Media queries---------------------*/
