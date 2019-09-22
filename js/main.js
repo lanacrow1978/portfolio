@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     
-    var offset=200; //where the button appears
+    var offset=180; //where the button appears
     var duration=500; //how long the scrolltop effect lasts
    
     $(window).scroll(function(){
@@ -83,6 +83,27 @@ $(document).ready(function() {
        }
     });
     
+});
+
+
+/*back to top button on the main page*/
+
+$(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('.back-to-top').fadeIn(duration);
+        } else {
+            $('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    $('.back-to-top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
 });
 
 

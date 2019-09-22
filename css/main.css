@@ -373,7 +373,6 @@ li a:hover {
 #name h2 {
     font-weight: bolder;
     font-size: 8.8vw;
-    /*text-align: center;*/
     color: white;
     line-height: 0.7;
 
@@ -381,7 +380,6 @@ li a:hover {
 
 #name h2 span {
     color: #73CEC0;
-    /*text-align: center;*/
 }
 
 
@@ -403,6 +401,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 2px;
     
 }
 
@@ -411,6 +410,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 
@@ -1245,6 +1245,27 @@ label {
 }
 
 
+
+.back-to-top {
+    position: fixed;
+    bottom: 4em;
+    right: 0px;
+    text-decoration: none;
+    background-color: rgba(115, 206, 192, 0.50);
+    font-size: 1em;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    z-index: 15;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(115, 206, 192, 0.8);
+    font-size: 1.05em;
+    text-decoration: none;
+}
 
 
 /*------------------Media queries---------------------*/
