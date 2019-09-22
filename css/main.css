@@ -544,7 +544,7 @@ li a:hover {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    left: 49.7%;
+    left: 49.6%;
     z-index: -1;
 
 }
@@ -587,7 +587,7 @@ li a:hover {
 .design {
     position: absolute;
     font-size: 4.5vw;
-    margin-top: 20vh;
+    margin-top: 19vh;
     margin-left: 80%;
 
 }
@@ -608,7 +608,7 @@ li a:hover {
 .code {
     position: absolute;
     font-size: 4.5vw;
-    margin-top: 21.5vh;
+    margin-top: 20.5vh;
     margin-left: 5.5%;
     font-weight: bolder;
     font-family: Orbitron, courier;
@@ -1265,10 +1265,6 @@ p {
   
 }
     
-#menu-dropdown-content {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
  
     
 /*name*/
@@ -1385,10 +1381,6 @@ nav li {
     font-size: 1.1em;
 }
     
-#menu-dropdown-content {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
     
 /*name*/
     
@@ -1502,7 +1494,7 @@ nav li {
 }
 
 .code {
-    margin-top: 18vh;
+    margin-top: 20vh;
     margin-left: 5%;
 }
 
@@ -1517,7 +1509,7 @@ nav li {
 }
     
  .design {
-    margin-top: 17.5vh;
+    margin-top: 19.5vh;
     margin-left: 80%;
 }
     
@@ -1580,25 +1572,11 @@ and (orientation : landscape) {
   and (-webkit-min-device-pixel-ratio: 1.5) {
       
       
-    .max-container {
-    max-height: 91vh;
-      }
     
     #face img {
     height: 80vh;
       }
       
-      #name h2 {
-    font-size:10vw;
-            margin-top: 3%;
-
-      }
-
-
-#title h1 {
-    font-size: 4vw;
-   
-      }
       
 }
    
@@ -1627,6 +1605,33 @@ and (orientation : landscape) {
     font-size: 4vw;
       
       }
+
+}
+
+
+/*iphone x landscape*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+
+ .max-container {
+    max-height: 82vh;
+      }
+
+#face img {
+    height: 47vh;
+      }
+
+    .design {
+margin-top: 17vh;
+
+}
+    
+     .code {
+margin-top: 18.5vh;
 
 }
 
