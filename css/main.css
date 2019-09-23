@@ -1019,7 +1019,7 @@ li a:hover {
 }
 
 a[href^=tel] {
-    color: inherit;
+    color: #343434;
     text-decoration: none;
 }
 
