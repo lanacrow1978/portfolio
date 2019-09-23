@@ -123,11 +123,6 @@ body {
 }
 
 
-h1 {
-    width: 100%;
-    text-align: center;
-}
-
 
 h2, h3, h4, h5 {
     text-align: center;
@@ -170,6 +165,10 @@ img {
     margin-bottom: 50px;
 }
 
+li, ul {
+     list-style-type: none;
+}
+
 
 /*--------------------header----------------------*/
 
@@ -207,9 +206,8 @@ nav li {
     display: inline-block;
     padding: 10px;
     z-index: 1;
-    line-height: 0.8;
+    line-height: 0.9;
     font-size: 1em;
-    /*background-color: black;*/
     cursor: pointer;
 
 }
@@ -228,7 +226,7 @@ li a {
 
 #language .lang-nav-item a{
     font-size: 1em;
-    line-height: 1.2;
+    line-height: 1.3;
 
 }
 
@@ -256,7 +254,6 @@ li a:hover {
     display: none;
     top: 100%;
     overflow: auto;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);*/
   
 }
 
@@ -265,15 +262,6 @@ li a:hover {
     font-weight: 700;
     text-align: right;
 }
-
-#lang-dropdown-content {
-    box-shadow: none;
-}
-
-
-/*.dropdown-content li {
-    background-color: white;
-}*/
 
 
 .fa {
@@ -319,38 +307,17 @@ li a:hover {
 #social {
     width: 40%;
     text-align: right;
-
 }
 
-.social-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    align-items: flex-end;
-    text-align: end;
-    align-self: flex-end;
-    -ms-transform: translate(10rem);
-    -webkit-box-align: end;
-}
 
 .social-links li {
     display: inline-block;
     padding: 0 3%;
-    text-align: end;
 }
-
-
-#social ul li {
-    align-items: flex-end;
-    text-align: end;
-     -ms-text-align: end !important;
-    -ms-align-items: flex-end !important;
-}
-
 
 
 #copyright {
-    flex-basis: 60%;
+    width: 60%;
 }
 
 #copyright p {
@@ -367,7 +334,7 @@ li a:hover {
 
 
 
-/*---------------------------name section------------------------*/
+/*---------------------------intro section------------------------*/
 
 
 #name h2 {
@@ -386,7 +353,6 @@ li a:hover {
 #title h1 {
     font-size: 3.5vw;
     color:#4B4C4C;
-    /*text-align: center;*/
     padding-top: 15px;
     background: -webkit-linear-gradient(#eee, #73CEC0);
   -webkit-background-clip: text;
@@ -401,6 +367,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-flow: row wrap;
 
     
 }
@@ -410,12 +377,10 @@ li a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-flow: row wrap;
 
 }
 
-
-
-/*-------------------hero-img--------------------------------*/
 
 .max-container {
     width: 100%;
@@ -429,12 +394,13 @@ li a:hover {
 }
 
 
+/*stars twinkling*/
 
 .stars {
     background-color: white;
     position: absolute;
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     border-radius: 50%;
     animation-iteration-count: infinite;
 }
@@ -488,25 +454,28 @@ li a:hover {
     animation-name: twinkle;
 }
 
+
+/*stars still*/
+
 .star-8 {
     margin-top: 1%;
     margin-left: 80%;
-    height: 2px;
-    width: 2px;
+    height: 1px;
+    width: 1px;
 }
 
 .star-9 {
     margin-top: 6%;
     margin-left: 90%;
-    height: 3px;
-    width: 3px;
+    height: 2px;
+    width: 2px;
 }
 
 .star-10 {
     margin-top: 7%;
     margin-left: 80%;
-    height: 4px;
-    width: 4px;
+    height: 3px;
+    width: 3px;
 }
 
 .star-11 {
@@ -540,7 +509,7 @@ li a:hover {
 
 
 .max-container figure {
-   position: absolute;
+    position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -548,6 +517,7 @@ li a:hover {
     z-index: -1;
 
 }
+
 
 #gradient img {
     width: 100%;
@@ -563,7 +533,6 @@ li a:hover {
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     width: 100%;
     align-content: center;
 
@@ -574,9 +543,7 @@ li a:hover {
 #face img {
     position: absolute;
     bottom: 0;
-    /*height: auto;*/
     max-height: 62vh;
-    display: block;
     left:0;
     right:0;
     margin-left:auto;
@@ -598,7 +565,7 @@ li a:hover {
 
 
 .design p {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: white;
     text-align: left;
     color: black;
@@ -668,11 +635,6 @@ li a:hover {
     height: auto;
 }
 
-.project-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
 .project-img img:hover {
    -moz-transform: scale(1.05);
@@ -710,7 +672,6 @@ li a:hover {
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-
     -webkit-transition: transform 0.5s ease-in-out;
     -moz-transition:transform 0.5s ease-in-out;
     -ms-transition:transform 0.5s ease-in-out;
@@ -740,6 +701,25 @@ li a:hover {
 
 #last {
     border-bottom: none;
+}
+
+
+
+/*---------back to top button---------*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 4em;
+    right: 0px;
+    text-decoration: none;
+    background-color: rgba(115, 206, 192, 0.50);
+    font-size: 1em;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    z-index: 15;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 
@@ -793,6 +773,7 @@ li a:hover {
     cursor: pointer;
     font-size: 1.1rem;
 }
+
 
 #about .button {
     box-shadow: 0px 2px 0px #3F6560, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
@@ -862,11 +843,11 @@ li a:hover {
 
 
  #skills article img {
-        height: 100px;
-        width: auto;
-        display: block;
-        margin: auto;
-    }
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
 
 #skill article {
     margin-bottom: 4rem;
@@ -875,7 +856,7 @@ li a:hover {
 #skills article p {
     text-align: center;
     color: white;  
-    }
+}
 
 
 #skill {
@@ -886,11 +867,10 @@ li a:hover {
 #skill h3 {
     margin: 30px 0 20px 0;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 #skills h2 {
-    text-align: center;
     color: white;
     margin-bottom: 2em;
 }
@@ -1016,8 +996,7 @@ li a:hover {
 }
 
 #testimonials p {
-    text-align: center;
-    
+    text-align: center;  
 }
 
 
@@ -1035,7 +1014,7 @@ li a:hover {
 
 #contact-details ul {
     list-style: none;
-   text-align: center;
+    text-align: center;
     margin: 20px 0;
 }
 
@@ -1094,7 +1073,7 @@ input[type='radio']:checked:after {
 
 
 button[type='submit'] {
-   border: none;
+    border: none;
     background-color: #73CEC0;
     display: inline-block;
     color: white;
@@ -1119,7 +1098,6 @@ button[type='submit']:hover {
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-
     -webkit-transition: transform 0.5s ease-in-out;
     -moz-transition:transform 0.5s ease-in-out;
     -ms-transition:transform 0.5s ease-in-out;
@@ -1190,22 +1168,6 @@ label {
 
 
 
-/*
-#contact h2 {
-    animation: slidein 3s;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
-}*/
-
-
 /*------------------Dorothy page--------------------*/
 
 .full-page-img {
@@ -1216,9 +1178,12 @@ label {
 
 .full-page-img img {
     width: 100%;
-    height: auto;
-    display: block;
 }
+
+
+
+/*------home button on dorothy and cv pages---*/
+
 
 .home-button {
     position: fixed;
@@ -1246,26 +1211,9 @@ label {
 
 
 
-.back-to-top {
-    position: fixed;
-    bottom: 4em;
-    right: 0px;
-    text-decoration: none;
-    background-color: rgba(115, 206, 192, 0.50);
-    font-size: 1em;
-    padding: 10px;
-    display: none;
-    text-align: center;
-    z-index: 15;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
 
-/*.back-to-top:hover {    
-    background-color: rgba(115, 206, 192, 0.8);
-    font-size: 1.05em;
-    text-decoration: none;
-}*/
+
+
 
 
 /*------------------Media queries---------------------*/
@@ -1286,19 +1234,17 @@ p {
   
 }
     
- 
-    
+  
 /*name*/
     
-#name h2{
+#name h2 {
     margin-bottom: 15px;    
 }
     
-#title h1 {
-    padding-bottom: 0.8em;
-}
-
-    
+    #title h1 {
+         padding-bottom: 15px;
+    }
+       
     
 
 /*portfolio*/
@@ -1314,13 +1260,13 @@ p {
         margin: 0;
         height: auto;
 }
- .project-container{
+    
+ .project-container {
         height: auto;
         text-align: left;
-     
-    }
+}
     
-.project-description h3, p{
+.project-description h3, p {
     text-align: left;  
 } 
     
@@ -1402,19 +1348,19 @@ nav li {
     font-size: 1.1em;
 }
     
-    
-/*name*/
+/*name*/    
     
 #name h2 {
     margin-bottom: 15px;    
 }
     
- #title h1 {
-    padding-bottom: 0.8em;
-}
+    #title h1 {
+         padding-bottom: 15px;
+    }
     
- 
-    
+
+/*portfolio*/    
+
  .project-description {
         width: 45%;
         margin: 0;
@@ -1501,7 +1447,7 @@ nav li {
     
     nav li {
     padding: 0.7em;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
     
@@ -1629,7 +1575,7 @@ and (orientation : landscape) {
   
       }
 
-#title h1 {
+      #title h1 {
     font-size: 4vw;
       
       }
@@ -1645,22 +1591,14 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
 
- .max-container {
-    max-height: 82vh;
-      }
+.max-container {max-height: 82vh;}
 
-#face img {
-    height: 47vh;
-      }
+#face img {height: 47vh;}
 
-    .design {
-margin-top: 17vh;
-
-}
+.design {margin-top: 17vh;}
     
-     .code {
-margin-top: 18.5vh;
-
+.code {margin-top: 18.5vh; }
+    
 }
 
     
