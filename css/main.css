@@ -1018,10 +1018,6 @@ li a:hover {
     margin: 20px 0;
 }
 
-a[href^=tel] {
-    color: #343434;
-    text-decoration: none;
-}
 
 #contact-form h5 {
     display: inline;
