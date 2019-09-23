@@ -1016,6 +1016,7 @@ li a:hover {
     list-style: none;
     text-align: center;
     margin: 20px 0;
+    color: #343434;
 }
 
 #contact-form h5 {
@@ -1596,8 +1597,12 @@ and (orientation : landscape) {
 #face img {height: 47vh;}
 
 .design {margin-top: 17vh;}
+.design p {line-height: 1;}
     
 .code {margin-top: 18.5vh; }
+    
+.code p {line-height: 1;}
+    
     
 }
 
