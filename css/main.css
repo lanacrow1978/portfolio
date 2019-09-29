@@ -112,18 +112,6 @@ body {
 }
 
 
-.container {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 20px 0;
-    align-items: center;
-    align-content: center;
-}
-
-
-
 h2, h3, h4, h5 {
     text-align: center;
     color:#4B4C4C;
@@ -554,42 +542,49 @@ li a:hover {
 .design {
     position: absolute;
     font-size: 4.5vw;
-    margin-top: 19vh;
-    margin-left: 80%;
+    right: 4%;
+    bottom: 8%;
 
 }
 
 .design strong {
     color: white;
+    font-size: 3em;
 }
 
 
 .design p {
-    font-size: 1.6vw;
-    color: white;
-    text-align: left;
+    font-size: 1.2vw;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
 }
+
+
 
 .code {
     position: absolute;
     font-size: 4.5vw;
-    margin-top: 20.5vh;
-    margin-left: 5.5%;
+    bottom: 7%;
+    left: 4%;
     font-weight: bolder;
     font-family: Orbitron, courier;
 }
 
 .code strong {
     color: black;
+    font-size: 3em;
+  
 
 }
 
 .code p {
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     color: white;
-    text-align: left;
+    text-align: center;
+    line-height: 1.2;
+   
 
 }
 
@@ -1461,23 +1456,17 @@ nav li {
 }
 
 .code {
-    margin-top: 20vh;
-    margin-left: 5%;
+    bottom: 30%;
 }
 
-.code p {
-    color: white;
-    text-align: left;
 
-}
 
 .code span {
     font-size: 1vw;
 }
     
  .design {
-    margin-top: 19.7vh;
-    margin-left: 80%;
+    bottom: 30%;
 }
     
  .design p {
@@ -1500,13 +1489,9 @@ nav li {
 and (max-device-width : 767px) 
 and (orientation : landscape) { 
     
-     .max-container {
-    max-height: 84vh;
-}
+    .max-container {max-height: 84vh;}
     
-    #face img {
-    max-height: 53vh;
-}
+    #face img { max-height: 53vh;}
     
 }
  
@@ -1518,23 +1503,11 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) { 
     
-     .max-container {
-    max-height: 91vh;
+    .max-container {max-height: 91vh;}
+    
+    #face img {height: 65vh;}
+    
 }
-    
-    #face img {
-    height: 65vh;
-}
-    
-    .design {
-        margin-top: 19.5vh;
-    }
-    
-    .code {
-        margin-top: 
-    }
-    
-    }
 
 
 /*ipad pro landscape*/
@@ -1546,13 +1519,9 @@ and (orientation : landscape) {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
       
-      
-    
-    #face img {
-    height: 80vh;
-      }
-      
-      
+
+    #face img {height: 80vh;}
+          
 }
    
 
@@ -1596,13 +1565,24 @@ and (orientation : landscape) {
 
 #face img {height: 47vh;}
 
-.design {margin-top: 17vh;}
-.design p {line-height: 1;}
+
+.design p {line-height: 1.1;}*/
+       
     
-.code {margin-top: 18.5vh; }
+}
+
+/*iphone x portrait*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
     
-.code p {line-height: 1;}
+    .design {bottom: 45%;}
     
+    .code {bottom: 45%;}
+     
     
 }
 
