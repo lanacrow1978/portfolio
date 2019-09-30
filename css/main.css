@@ -247,7 +247,6 @@ li a:hover {
 
 #menu-dropdown-content {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
     text-align: right;
 }
 
@@ -544,6 +543,7 @@ li a:hover {
     font-size: 4.5vw;
     right: 3.5%;
     bottom: 10%;
+    font-weight: bold;
 
 }
 
@@ -557,12 +557,8 @@ li a:hover {
 .design p {
     font-size: 1.3vw;
     color: black;
-    /*font-weight: 700;*/
     line-height: 1.2;
     text-align: center;
-    /*font-family: Lato, sans-serif;*/
-    
-    /*font-family: 'GoMonoRegular';*/
     font-family: 'Nova Mono', monospace;
 }
 
@@ -573,7 +569,7 @@ li a:hover {
     font-size: 4.5vw;
     bottom: 10%;
     left: 3.5%;
-    font-weight: bolder;
+    font-weight: bold;
     /*font-family: Orbitron, courier;*/
     /*font-family: 'Roboto Mono', monospace;*/
     /*font-family: 'Ubuntu Mono', monospace;*/
@@ -594,15 +590,10 @@ li a:hover {
     color: white;
     text-align: center;
     line-height: 1.2;
-   
+
 
 }
 
-.code span {
-    font-size: 0.8em;
-    color: black;
-    /*font-family: 'Open Sans Condensed', sans-serif;*/
-}
 
 .code fa {
     color: black;
@@ -1449,12 +1440,6 @@ nav li {
 
 @media only screen and (orientation: portrait) {
     
-    /*header*/
-    
-   /* nav li {
-    padding: 0.7em;
-    font-size: 0.9em;
-}*/
 
     
  .max-container {
@@ -1468,21 +1453,15 @@ nav li {
 .code {
     bottom: 28%;
 }
+    
+.code span {display: none;}
 
-
-
-/*.code span {
-    font-size: 1vw;
-}*/
     
  .design {
     bottom: 28%;
 }
     
- /*.design p {
-        margin-top: 1%;
-        line-height: 1.2;
-    }*/
+.design span {display: none;}
 
 .stars {
    
