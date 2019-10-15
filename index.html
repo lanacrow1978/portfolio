@@ -14,16 +14,19 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
     
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
   
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Open+Sans+Condensed:300|Roboto+Condensed|Share+Tech+Mono&display=swap" rel="stylesheet">
- 
+    
+<link href="https://fonts.googleapis.com/css?family=Nova+Mono|Open+Sans|Open+Sans+Condensed:300|Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://use.typekit.net/izn1rlw.css">
+
+    
     
 </head>
 
@@ -52,6 +55,7 @@
             <ul id="menu-dropdown-content" class="dropdown-content">
                 <li><a href="#portfolio">Portfolio</a></li>   
                 <li><a href="#about">About&nbsp;me</a></li>
+                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -107,9 +111,10 @@
             <p>
                 <strong>Designer</strong>
                 <br>
-                <span>
+                <span style="font-weight: normal;">
                 with great passion for <br>creating fluid and intuitive<br>
-                user experiences</span></p>
+                user experiences</span>
+            </p>
         </div>
         
         <div class="code">
@@ -125,10 +130,13 @@
         
     </div>  
     </section> 
-   
+ 
     
     <section id="portfolio">
-    <div class="portfolio-container">  
+    <div class="portfolio-container">
+        <h2>Portfolio</h2>
+        <div align="center" id="first-border"></div>
+        <div id="second-border"></div>
      <div class="project-container">  
         <div class="project-description">
           
@@ -150,14 +158,14 @@
         <div class="project-description">
           
             <h3>Web Design Project</h3> 
-            <p>I created this design using Adobe XD. The client is a strong, opinionated feminist artist and photographer who wanted a portfolio site to showcase her work. I tried to reflect her personality in this simple design. <br/>
+            <p>I created this design using Adobe XD. The client is a strong, opinionated feminist artist and photographer who wanted a portfolio site to showcase her work. <br/>
              <em>(Software: Adobe XD)</em></p>
             <a class="button" href="dorothy/index.html" role="button">View Design</a>
          
         </div>
             
         <div class="project-img">
-            <a href="dorothy/index.html"><img src="img/web-design-dorothy.png" alt="image of dorothy design"></a>
+            <a href="dorothy/index.html"><img src="img/web-design-dorothy-v2.png" alt="image of dorothy design"></a>
         </div>  
     </div> 
         
@@ -255,6 +263,7 @@
     
     
 </section>
+    
     
 <section id="testimonials" class="fadein">
     <div class="content-wrapper">
@@ -364,43 +373,25 @@
     
 </footer>
 
-   
 
  
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
 
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-    <script
+        <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   crossorigin="anonymous"></script>
-     <script src="js/jquery.waypoints.min.js"></script>
-   <script src="js/waypoints.js"></script>
+       <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  crossorigin="anonymous"></script>
+   
+  <script src="js/waypoints.js"></script>-->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
    
-   
-    
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148875741-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-148875741-1');
-</script>
-
     
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

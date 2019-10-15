@@ -178,8 +178,7 @@ nav {
     margin: auto;
     margin-top: 2%;
     z-index: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
+   
 }
 
 #menu {
@@ -192,10 +191,9 @@ nav {
 nav li {
     box-sizing: border-box;
     display: inline-block;
-    padding: 10px;
+    padding: 0.8rem;
     z-index: 1;
-    line-height: 0.9;
-    font-size: 1em;
+    font-size: 1rem;
     cursor: pointer;
 
 }
@@ -208,15 +206,9 @@ li a {
 
 #language a {
     color: #73CEC0;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
-
-#language .lang-nav-item a{
-    font-size: 1em;
-    line-height: 1.3;
-
-}
 
 #language li a:hover {
     color: white;
@@ -245,9 +237,11 @@ li a:hover {
   
 }
 
+
 #menu-dropdown-content {
-    font-family: 'Open Sans Condensed', sans-serif;
+
     text-align: right;
+    background-color: black;
 }
 
 
@@ -258,7 +252,7 @@ li a:hover {
 
 #language .fa {
     color: #73CEC0;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 #language {
@@ -274,6 +268,7 @@ li a:hover {
 .lang {
     display: inline-block;
 }
+
 
 
 /*------------------------footer-------------------------*/
@@ -299,7 +294,7 @@ li a:hover {
 
 .social-links li {
     display: inline-block;
-    padding: 0 3%;
+    padding: 0 5%;
 }
 
 
@@ -326,7 +321,7 @@ li a:hover {
 
 #name h2 {
     font-weight: bolder;
-    font-size: 8.8vw;
+    font-size: 8.5vw;
     color: white;
     line-height: 0.7;
 
@@ -423,21 +418,21 @@ li a:hover {
 .star-5 {
     margin-top: 3%;
     margin-left: 5%;
-    animation-duration: 1.2s;
+    animation-duration: 1.4s;
     animation-name: twinkle;
 }
 
 .star-6 {
     margin-top: 0;
     margin-left: 10%;
-    animation-duration: 1.2s;
+    animation-duration: 1s;
     animation-name: twinkle;
 }
 
 .star-7 {
     margin-top: 0;
     margin-left: 30%;
-    animation-duration: 1.2s;
+    animation-duration: 1.3s;
     animation-name: twinkle;
 }
 
@@ -540,10 +535,9 @@ li a:hover {
 
 .design {
     position: absolute;
-    font-size: 4.5vw;
     right: 3.5%;
-    bottom: 10%;
-    font-weight: bold;
+    bottom: 30%;
+    font-family: 'Nova Mono', monospace;
 
 }
 
@@ -551,29 +545,26 @@ li a:hover {
     color: white;
     font-size: 3em;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 
 .design p {
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     color: black;
     line-height: 1.2;
     text-align: center;
-    font-family: 'Nova Mono', monospace;
 }
 
 
 
 .code {
     position: absolute;
-    font-size: 4.5vw;
-    bottom: 10%;
+    bottom: 30%;
     left: 3.5%;
-    font-weight: bold;
-    /*font-family: Orbitron, courier;*/
-    /*font-family: 'Roboto Mono', monospace;*/
-    /*font-family: 'Ubuntu Mono', monospace;*/
     font-family: 'Share Tech Mono', monospace;
+
+    letter-spacing: -1px;
     
 }
 
@@ -581,16 +572,16 @@ li a:hover {
     color: black;
     font-size: 3em;
     font-weight: bolder;
+    text-transform: uppercase;
   
 
 }
 
 .code p {
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     color: white;
     text-align: center;
     line-height: 1.2;
-
 
 }
 
@@ -600,8 +591,6 @@ li a:hover {
     font-size: 1em;
 }
 
-
- 
 
 /*--------------Portfolio-----------------*/
 
@@ -617,6 +606,28 @@ li a:hover {
     border-bottom: 1px solid #C5C5C5;
     text-align: center;
 }
+
+
+.portfolio-container h2 {
+    margin: 4% 0 0.5% 0;
+    
+   
+}
+
+#first-border {
+    border-bottom: 1px solid #C5C5C5;
+    width: 25%;
+    margin: auto;
+}
+
+#second-border {
+    border-bottom: 1px solid #C5C5C5;
+    width: 30%;
+    margin: auto;
+    height: 0.8em;
+    margin-bottom: 2%;
+}
+
 
 
 .project-description {
@@ -680,7 +691,7 @@ li a:hover {
 
 
 .button {
-    background-color: #73CEC0;
+    background-color: #73cec0;
     display: inline-block;
     color: #202020;
     border-radius: 10px;
@@ -733,6 +744,7 @@ li a:hover {
 #about h2 {
   margin-bottom: 3.5rem;
     padding-top: 1rem;
+    color: #73cec0;
 
 }
 
@@ -753,8 +765,8 @@ li a:hover {
 #about p {
     text-align: center;
     font-weight:500;
-    color: black;
-    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.6) 100%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 0.6rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
@@ -812,7 +824,7 @@ li a:hover {
 }
 
 #background {
-    background: url('../img/london.jpg') center no-repeat #EDECEA;
+    background: url('../img/city_of_london.jpeg') center no-repeat #EDECEA;
     background-size: cover;
     position: absolute;
     z-index: -1;
@@ -901,7 +913,7 @@ li a:hover {
 /*---------------------diagrams------------------------*/
 
 #diagrams {
-    background-color: #EEEEEE;
+    background-color: #f2f4f4;
     padding: 3%;
     
 }
@@ -981,12 +993,12 @@ li a:hover {
 #testimonials article {
     flex-basis: 100%;
     margin-top: 3%;
-    margin-bottom: 0;  
+ 
 }
 
 #testimonials h2 {
     margin-bottom: 1.5%;
-    color: #73CEC0;
+    color: #73cec0;
     padding-top: 2%;
     
 }
@@ -994,6 +1006,11 @@ li a:hover {
 #testimonials p {
     text-align: center;  
 }
+
+#reviews > article:nth-child(2) {
+      
+        padding: 0 3% 0 3%;
+    }
 
 
 
@@ -1020,7 +1037,7 @@ li a:hover {
 }
 
 #contact h4 {
-    color: #73CEC0;
+    color: #73cec0;
 }
 
 #contact h2 {
@@ -1057,7 +1074,7 @@ input[type='radio']:checked:after {
         top: -2px;
         left: -1px;
         position: relative;
-        background-color: #73CEC0;
+        background-color: #73cec0;
         content: '';
         display: inline-block;
         visibility: visible;
@@ -1071,7 +1088,7 @@ input[type='radio']:checked:after {
 
 button[type='submit'] {
     border: none;
-    background-color: #73CEC0;
+    background-color: #73cec0;
     display: inline-block;
     color: white;
     border-radius: 10px;
@@ -1115,7 +1132,7 @@ label {
 }
 
 .error {
-    color:#73CEC0;
+    color:#73cec0;
 }
 
 #enquiry-error {
@@ -1149,7 +1166,7 @@ label {
     left: 20%;
     right: 20%;
     font-size: 2rem;
-    color: #73CEC0;
+    color: #73cec0;
 }
 
 /*fade in effect*/
@@ -1210,9 +1227,6 @@ label {
 
 
 
-
-
-
 /*------------------Media queries---------------------*/
 
 @media only screen and (min-width: 768px) {
@@ -1226,9 +1240,12 @@ p {
     
  nav li {
 
-    line-height: 1;
     font-size: 1.1em;
   
+}
+    
+    #menu-dropdown-content {
+    background-color: transparent;
 }
     
   
@@ -1242,7 +1259,13 @@ p {
          padding-bottom: 15px;
     }
        
+    .design {
+        bottom: 20%;
+    } 
     
+    .code {
+        bottom: 20%;
+    }
 
 /*portfolio*/
     
@@ -1294,10 +1317,23 @@ p {
     
     /*testimonials*/
     
-    
-     #testimonials article {
-    flex-basis: 30%;
+      
+   #reviews > article:nth-child(2) {
+      
+        flex: 4 1 5rem;
     }
+    
+   #reviews > article:nth-child(3) {
+       
+        flex: 2 2 3rem;
+    }
+    
+    #reviews > article:nth-child(1) {
+      
+        flex: 2 2 3rem;
+    }
+    
+    
     
    
    /*contact section*/
@@ -1337,12 +1373,15 @@ p {
     font-size: 1.05em;
 }
     
-    
-    
-nav li {
- 
-    line-height: 1;
+    nav li {
+
     font-size: 1.1em;
+  
+}
+ 
+    
+    #menu-dropdown-content {
+    background-color: transparent;
 }
     
 /*name*/    
@@ -1355,7 +1394,15 @@ nav li {
          padding-bottom: 15px;
     }
     
-
+ .design {
+        bottom: 15%;
+    } 
+    
+    .code {
+        bottom: 15%;
+    }
+    
+    
 /*portfolio*/    
 
  .project-description {
@@ -1408,9 +1455,25 @@ nav li {
     
     /*testimonials*/
     
-    #testimonials article {
-    flex-basis: 30%;
+    
+    
+   #reviews > article:nth-child(2) {
+      
+        flex: 4 1 5rem;
     }
+    
+   #reviews > article:nth-child(3) {
+       
+        flex: 2 2 3rem;
+    }
+    
+    #reviews > article:nth-child(1) {
+      
+        flex: 2 2 3rem;
+    }
+    
+    
+    
     
    
     
@@ -1442,33 +1505,20 @@ nav li {
     
 
     
- .max-container {
-    max-height: 55vh;
-}
+ .max-container {max-height: 55vh;}
     
- #face img {
-    max-height: 35vh;
-}
+ #face img {max-height: 35vh;}
 
-.code {
-    bottom: 28%;
-}
+.code {bottom: 28%;}
     
 .code span {display: none;}
-
-    
- .design {
-    bottom: 28%;
-}
+ 
+.design {bottom: 28%;}
     
 .design span {display: none;}
 
-.stars {
-   
-    height: 3px;
-    width: 3px;
+.stars {height: 3px; width: 3px;}
 
-}
 }
     
     /*--------for phones lanscape orientation-----*/
@@ -1569,7 +1619,7 @@ and (orientation : portrait) {
     
     .code {bottom: 40%;}
     
-    .code strong {color: #73cec0;}
+    .code strong {color: #A33B99;}
      
     
 }
