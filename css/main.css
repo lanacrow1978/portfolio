@@ -913,7 +913,7 @@ li a:hover {
 /*---------------------diagrams------------------------*/
 
 #diagrams {
-    background-color: #f2f4f4;
+    background-color: #f5f5f5;
     padding: 3%;
     
 }
@@ -1019,7 +1019,7 @@ li a:hover {
 
 
 #contact {
-    background-color: #f2f4f4;
+    background-color: #f5f5f5;
     padding: 20px 0;
 
 }
@@ -1184,16 +1184,101 @@ label {
 
 /*------------------Dorothy page--------------------*/
 
-.full-page-img {
-    width: 100%;
-    margin: 0;
-    height: auto;
+.dorothy {
+    background-color: #f5f5f5;
 }
 
-.full-page-img img {
-    width: 100%;
+.dorothy article {
+    margin: 5% 5% 0 5%;
+    text-align: justify;
+    
 }
 
+.dorothy h2 {
+    padding-bottom: 2%;
+}
+
+/*------------------dorothy footer-------------------*/
+
+
+#design-footer {
+
+    width: 100%;
+    background-color: black;
+    color: #73CEC0;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 30px;
+    grid-auto-rows: 4rem;
+
+
+}
+
+#design-contact > p {
+    color: white;
+}
+
+
+#design-contact {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+#design-copyright {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    margin-left: auto;
+    
+    
+}
+
+#design-copyright>p {
+  color: #73cec0;
+}
+
+#design-social {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: start;
+
+}
+
+
+
+/*#social {
+    width: 40%;
+    text-align: right;
+}
+
+
+.social-links li {
+    display: inline-block;
+    padding: 0 5%;
+}
+
+
+#copyright {
+    width: 60%;
+}
+
+#copyright p {
+    color: white;
+    font-size: 0.8rem;
+    text-align: left;
+}*/
+
+#design-social i {
+    color: #73CEC0;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 
 /*------home button on dorothy and cv pages---*/
