@@ -1667,6 +1667,42 @@ p {
 .design span {display: none;}
 
 .stars {height: 3px; width: 3px;}
+    
+    
+    #design-footer {
+
+    grid-template-columns: 1fr;
+
+}
+
+
+
+#design-contact {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#design-copyright {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center; 
+
+    
+}
+
+
+#design-social {
+    align-items: center;
+    text-align: center;
+
+}
+
 
 }
     
