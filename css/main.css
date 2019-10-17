@@ -1205,12 +1205,18 @@ label {
 
     width: 100%;
     background-color: black;
-    color: #73CEC0;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 4rem;
 
+    
+}
 
+#design-footer-wrapper {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    
 }
 
 #design-contact > p {
@@ -1219,21 +1225,19 @@ label {
 
 
 #design-contact {
-
-    display: flex;
-    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+   display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
-    font-size: 1rem;
 
 }
 
 #design-copyright {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: center; 
+    width: 100%;
+    padding-top: 4%;
+    text-align: center;
 
     
 }
@@ -1243,7 +1247,7 @@ label {
 }
 
 #design-social {
-    align-items: center;
+width: 100%;
     text-align: center;
 
 }
@@ -1422,46 +1426,26 @@ p {
    
  /*--------Dorothy---------*/
     
+
+  
     
-    #design-footer {
+    #design-social {
+        width: 50%;
+        text-align: left;
+        padding-top: 0;
+        
+    }
     
-    grid-template-columns: 10px 65% 30% 10px;
-
-
-}
-
-
-
-
-#design-contact {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-
-}
-
-#design-copyright {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    display: flex;
-    margin-left: auto;
-    text-align: right;
+    #design-copyright {
+        width: 40%;
+        text-align: right;
+        padding-top: 1%;
+        
+    }
     
-    
-}
-
-
-
-#design-social {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: start;
-
-}
+    #design-contact {
+        padding-top: 2%;
+    }
 
 
 
@@ -1607,45 +1591,7 @@ p {
     /*--------Dorothy---------*/
     
     
-    #design-footer {
-    
-    grid-template-columns: 10px 65% 30% 10px;
-
-
-}
-
-
-
-
-#design-contact {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-
-}
-
-#design-copyright {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    display: flex;
-    margin-left: auto;
-    text-align: right;
-    
-    
-}
-
-
-
-#design-social {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: start;
-
-}
+ 
 
     
 }
@@ -1668,41 +1614,6 @@ p {
 
 .stars {height: 3px; width: 3px;}
     
-    
-    #design-footer {
-
-    grid-template-columns: 1fr;
-
-}
-
-
-
-#design-contact {
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-#design-copyright {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: center; 
-
-    
-}
-
-
-#design-social {
-    align-items: center;
-    text-align: center;
-
-}
-
 
 }
     
