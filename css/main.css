@@ -1207,7 +1207,7 @@ label {
     background-color: black;
     color: #73CEC0;
     display: grid;
-    grid-template-columns: 10px 1fr 1fr 30px;
+    grid-template-columns: 1fr;
     grid-auto-rows: 4rem;
 
 
@@ -1219,22 +1219,22 @@ label {
 
 
 #design-contact {
-    grid-column: 2/4;
-    grid-row: 1/2;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     margin-top: 2%;
+    font-size: 1rem;
 
 }
 
 #design-copyright {
-    grid-column: 3/4;
-    grid-row: 2/3;
     display: flex;
-    margin-left: auto;
-    
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center; 
+
     
 }
 
@@ -1243,36 +1243,12 @@ label {
 }
 
 #design-social {
-
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: start;
+    align-items: center;
+    text-align: center;
 
 }
 
 
-
-/*#social {
-    width: 40%;
-    text-align: right;
-}
-
-
-.social-links li {
-    display: inline-block;
-    padding: 0 5%;
-}
-
-
-#copyright {
-    width: 60%;
-}
-
-#copyright p {
-    color: white;
-    font-size: 0.8rem;
-    text-align: left;
-}*/
 
 #design-social i {
     color: #73CEC0;
@@ -1444,7 +1420,51 @@ p {
     }
     
    
+ /*--------Dorothy---------*/
     
+    
+    #design-footer {
+    
+    grid-template-columns: 10px 65% 30% 10px;
+
+
+}
+
+
+
+
+#design-contact {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+#design-copyright {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+    
+    
+}
+
+
+
+#design-social {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: start;
+
+}
+
+
+
   
     
 
@@ -1582,7 +1602,51 @@ p {
  
     #contact-form {
         width: 55%;
-    }   
+    } 
+    
+    /*--------Dorothy---------*/
+    
+    
+    #design-footer {
+    
+    grid-template-columns: 10px 65% 30% 10px;
+
+
+}
+
+
+
+
+#design-contact {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+#design-copyright {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+    
+    
+}
+
+
+
+#design-social {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: start;
+
+}
+
     
 }
 
